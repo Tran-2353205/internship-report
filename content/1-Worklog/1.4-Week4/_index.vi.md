@@ -20,8 +20,8 @@ pre: " <b> 1.4. </b> "
 | 2 | - Học: Static Website Hosting with Amazon S3 <br>&emsp;+ Cấu hình S3 Bucket cho Website Hosting <br>&emsp;+ Bucket Policy và quyền truy cập public <br>&emsp;+ Triển khai website tĩnh trên S3 | 29/06/2026 | 29/06/2026 | https://000057.awsstudygroup.com |
 | 3 | - Học: Database Essentials with Amazon RDS <br>&emsp;+ Khởi tạo RDS Instance <br>&emsp;+ Lựa chọn Database Engine <br>&emsp;+ Kết nối ứng dụng Backend tới RDS <br>&emsp;+ Backup & Multi-AZ | 30/06/2026 | 30/06/2026 | https://000005.awsstudygroup.com |
 | 4 | - Cùng nhóm hoàn thiện phân tích hệ thống <br>&emsp;+ Thiết kế Use Case Diagram | 01/07/2026 | 01/07/2026 | Trao đổi nhóm |
-| 5 | - Xây dựng cấu trúc cơ sở dữ liệu phía Backend <br>&emsp;+ Thực hiện Migration <br>&emsp;+ Xây dựng các chức năng nền tảng: Book, Category, Publisher | 02/07/2026 | 02/07/2026 | Codebase dự án |
-| 6 | - Kiểm thử các chức năng Backend ban đầu <br>&emsp;+ Kiểm tra Models và Migration <br>&emsp;+ Review thiết kế hệ thống cùng các thành viên <br>&emsp;+ Chuẩn bị phát triển các chức năng nghiệp vụ trong Sprint tiếp theo | 03/07/2026 | 03/07/2026 | Codebase dự án |
+| 5 | - Xây dựng cấu trúc cơ sở dữ liệu phía Backend <br>&emsp;+ Thực hiện Migration <br>&emsp;+ Xây dựng các chức năng nền tảng: Book, Category, Publisher | 02/07/2026 | 02/07/2026 |  |
+| 6 | - Kiểm thử các chức năng Backend ban đầu <br>&emsp;+ Kiểm tra Models và Migration <br>&emsp;+ Review thiết kế hệ thống cùng các thành viên <br>&emsp;+ Chuẩn bị phát triển các chức năng nghiệp vụ trong Sprint tiếp theo | 03/07/2026 | 03/07/2026 |  |
 
 ### Kết quả đạt được tuần 4:
 

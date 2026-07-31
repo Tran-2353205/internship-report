@@ -19,9 +19,9 @@ pre: " <b> 1.5. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2 | - Study: Simplified Computing with Amazon Lightsail <br>&emsp;+ Provision Lightsail Instance <br>&emsp;+ Configure Networking and Static IP <br>&emsp;+ Compare Lightsail vs. EC2 | 06/07/2026 | 06/07/2026 | https://000045.awsstudygroup.com |
 | 3 | - Study: Container Deployment with Amazon Lightsail Containers <br>&emsp;+ Containerize applications <br>&emsp;+ Deploy Containers to Lightsail <br>&emsp;+ Basic Deployment and Scaling management | 07/07/2026 | 07/07/2026 | https://000046.awsstudygroup.com |
-| 4 | - Develop Backend features <br>&emsp;+ Reader management <br>&emsp;+ User account management <br>&emsp;+ Finalize Authentication and Authorization | 08/07/2026 | 08/07/2026 | Project Codebase |
-| 5 | - Build RESTful APIs for core features <br>&emsp;+ Book <br>&emsp;+ Reader <br>&emsp;+ Publisher <br>&emsp;+ Category <br>- Coordinate with Frontend team to align on data exchange formats | 09/07/2026 | 09/07/2026 | Project Codebase |
-| 6 | - Test built APIs <br>&emsp;+ Test CRUD operations <br>&emsp;+ Test user authentication <br>&emsp;+ Fix emerging bugs and conduct Sprint review | 10/07/2026 | 10/07/2026 | Project Codebase |
+| 4 | - Develop Backend features <br>&emsp;+ Reader management <br>&emsp;+ User account management <br>&emsp;+ Finalize Authentication and Authorization | 08/07/2026 | 08/07/2026 |  |
+| 5 | - Build RESTful APIs for core features <br>&emsp;+ Book <br>&emsp;+ Reader <br>&emsp;+ Publisher <br>&emsp;+ Category <br>- Coordinate with Frontend team to align on data exchange formats | 09/07/2026 | 09/07/2026 |  |
+| 6 | - Test built APIs <br>&emsp;+ Test CRUD operations <br>&emsp;+ Test user authentication <br>&emsp;+ Fix emerging bugs and conduct Sprint review | 10/07/2026 | 10/07/2026 |  |
 
 ### Week 5 Achievements:
 

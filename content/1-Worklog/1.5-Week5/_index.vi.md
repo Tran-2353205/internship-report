@@ -19,9 +19,9 @@ pre: " <b> 1.5. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2 | - Học: Simplified Computing with Amazon Lightsail <br>&emsp;+ Khởi tạo Lightsail Instance <br>&emsp;+ Cấu hình Networking và Static IP <br>&emsp;+ So sánh Lightsail và EC2 | 06/07/2026 | 06/07/2026 | https://000045.awsstudygroup.com |
 | 3 | - Học: Container Deployment with Amazon Lightsail Containers <br>&emsp;+ Đóng gói ứng dụng bằng Container <br>&emsp;+ Triển khai Container lên Lightsail <br>&emsp;+ Quản lý Deployment và Scaling cơ bản | 07/07/2026 | 07/07/2026 | https://000046.awsstudygroup.com |
-| 4 | - Phát triển các chức năng Backend <br>&emsp;+ Quản lý độc giả (Reader) <br>&emsp;+ Quản lý tài khoản người dùng <br>&emsp;+ Hoàn thiện Authentication và Authorization | 08/07/2026 | 08/07/2026 | Codebase dự án |
-| 5 | - Xây dựng RESTful API cho các chức năng chính <br>&emsp;+ Book <br>&emsp;+ Reader <br>&emsp;+ Publisher <br>&emsp;+ Category <br>- Trao đổi với Frontend để thống nhất định dạng dữ liệu trao đổi | 09/07/2026 | 09/07/2026 | Codebase dự án |
-| 6 | - Kiểm thử các API đã xây dựng <br>&emsp;+ Kiểm tra CRUD <br>&emsp;+ Kiểm tra xác thực người dùng <br>&emsp;+ Sửa lỗi phát sinh và review Sprint | 10/07/2026 | 10/07/2026 | Codebase dự án |
+| 4 | - Phát triển các chức năng Backend <br>&emsp;+ Quản lý độc giả (Reader) <br>&emsp;+ Quản lý tài khoản người dùng <br>&emsp;+ Hoàn thiện Authentication và Authorization | 08/07/2026 | 08/07/2026 |  |
+| 5 | - Xây dựng RESTful API cho các chức năng chính <br>&emsp;+ Book <br>&emsp;+ Reader <br>&emsp;+ Publisher <br>&emsp;+ Category <br>- Trao đổi với Frontend để thống nhất định dạng dữ liệu trao đổi | 09/07/2026 | 09/07/2026 |  |
+| 6 | - Kiểm thử các API đã xây dựng <br>&emsp;+ Kiểm tra CRUD <br>&emsp;+ Kiểm tra xác thực người dùng <br>&emsp;+ Sửa lỗi phát sinh và review Sprint | 10/07/2026 | 10/07/2026 |  |
 
 ### Kết quả đạt được tuần 5:
 
