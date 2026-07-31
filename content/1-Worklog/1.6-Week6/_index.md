@@ -17,11 +17,11 @@ pre: " <b> 1.6. </b> "
 
 | Day | Tasks | Start Date | Completion Date | Reference Materials |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Mon | - Study: Scaling Applications with EC2 Auto Scaling <br>&emsp;+ Launch Template <br>&emsp;+ Auto Scaling Group <br>&emsp;+ Scaling Policy <br>&emsp;+ Combining Load Balancer with Auto Scaling | 13/07/2026 | 13/07/2026 | https://000006.awsstudygroup.com |
-| Tue | - Study: Monitoring with Amazon CloudWatch <br>&emsp;+ CloudWatch Metrics <br>&emsp;+ CloudWatch Alarms <br>&emsp;+ CloudWatch Logs <br>&emsp;+ Setting up a system monitoring Dashboard | 14/07/2026 | 14/07/2026 | https://000008.awsstudygroup.com |
-| Wed | - Complete remaining Backend features <br>&emsp;+ Book borrowing and returning management <br>&emsp;+ Fine/Late fee management <br>&emsp;+ Finalize user role-based access control (RBAC) | 15/07/2026 | 15/07/2026 | |
-| Thu | - Integrate Backend with Frontend <br>&emsp;+ Verify API connections <br>&emsp;+ Test cross-functional data flows <br>&emsp;+ Assist Frontend team with integration troubleshooting | 16/07/2026 | 16/07/2026 | Team discussions |
-| Fri | - End-to-end testing of system features <br>&emsp;+ API testing <br>&emsp;+ Fix emerging issues/bugs <br>&emsp;+ Prepare AWS deployment environment | 17/07/2026 | 17/07/2026 | |
+| 2 | - Study: Scaling Applications with EC2 Auto Scaling <br>&emsp;+ Launch Template <br>&emsp;+ Auto Scaling Group <br>&emsp;+ Scaling Policy <br>&emsp;+ Combining Load Balancer with Auto Scaling | 13/07/2026 | 13/07/2026 | https://000006.awsstudygroup.com |
+| 3 | - Study: Monitoring with Amazon CloudWatch <br>&emsp;+ CloudWatch Metrics <br>&emsp;+ CloudWatch Alarms <br>&emsp;+ CloudWatch Logs <br>&emsp;+ Setting up a system monitoring Dashboard | 14/07/2026 | 14/07/2026 | https://000008.awsstudygroup.com |
+| 4 | - Complete remaining Backend features <br>&emsp;+ Book borrowing and returning management <br>&emsp;+ Fine/Late fee management <br>&emsp;+ Finalize user role-based access control (RBAC) | 15/07/2026 | 15/07/2026 | |
+| 5 | - Integrate Backend with Frontend <br>&emsp;+ Verify API connections <br>&emsp;+ Test cross-functional data flows <br>&emsp;+ Assist Frontend team with integration troubleshooting | 16/07/2026 | 16/07/2026 | Team discussions |
+| 6 | - End-to-end testing of system features <br>&emsp;+ API testing <br>&emsp;+ Fix emerging issues/bugs <br>&emsp;+ Prepare AWS deployment environment | 17/07/2026 | 17/07/2026 | |
 
 ### Week 6 Achievements:
 
