@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-During my internship period from **08/06/2026 to 14/08/2026**, I participated in the **First Cloud AI Journey** program organized by AWS Study Group. Due to early report preparation, this worklog summarizes my learning and work progress up to **31/07/2026** (covering the first **8 weeks**).
+During the internship period from **08/06/2026** to **31/07/2026**, I participated in the First Cloud AI Journey program organized by AWS Study Group. The program was conducted over 08 weeks, focusing on learning fundamental knowledge of Amazon Web Services (AWS) and applying the acquired knowledge to develop the Library Management Website project.
 
 Throughout these 8 weeks, I learned and practiced foundational Amazon Web Services (AWS) infrastructure while applying this knowledge to develop a **Library Management Website** through team collaboration.
 
