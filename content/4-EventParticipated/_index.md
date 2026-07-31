@@ -9,7 +9,7 @@ pre: " <b> 4. </b> "
 In addition to my internship responsibilities, I had the opportunity to participate in **three professional events** organized by the AWS Community. These events not only provided valuable knowledge about Cloud Computing, AI, DevOps, and system architecture but also broadened my understanding of technology trends, career development, and professional working practices in real-world environments.
 
 ### [Event 1](4.1-Event1/)
-&emsp;**Event Name:** IT & AWS Community Expert Sharing Series
+&emsp;**Event Name:** Saturday Meetup
 
 &emsp;**Date & Time:** 09:00 AM, June 13, 2026
 

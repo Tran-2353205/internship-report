@@ -9,7 +9,7 @@ pre: " <b> 4. </b> "
 Bên cạnh các nhiệm vụ trong quá trình thực tập, em còn tham gia 03 sự kiện chuyên môn do cộng đồng AWS tổ chức. Các sự kiện không chỉ cung cấp kiến thức về Cloud Computing, AI, DevOps và kiến trúc hệ thống mà còn giúp em mở rộng góc nhìn về xu hướng công nghệ, kỹ năng nghề nghiệp và phương pháp làm việc trong môi trường thực tế.
 
 ### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** Chuỗi sự kiện chia sẻ cùng chuyên gia IT & AWS Community
+&emsp;**Tên sự kiện:** Saturday Meetup
 
 &emsp;**Thời gian:** 09:00 ngày 13/06/2026
 
