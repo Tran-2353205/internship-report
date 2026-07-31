@@ -1,35 +1,36 @@
 ---
-title: "Worklog Tuần 4"
+title: "Worklog Week 4"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu tuần 4:
+### Objectives for Week 4:
 
-* Tìm hiểu về các dịch vụ Storage nâng cao của AWS (Module 04).
-* Xác định các chức năng của hệ thống và các backend API tương ứng cho từng chức năng.
-* Thiết kế và hoàn thiện Use Case Diagram của hệ thống Quản lý thư viện.
+* Learn about Static Website Hosting with Amazon S3 and Database Essentials with Amazon RDS.
+* Finalize system analysis: Use Case Diagram and Entity Relationship Diagram (ERD).
+* Build database structure using Django Models and execute Migrations.
+* Implement initial foundational Backend features (Book, Category, Publisher).
 
-### Các công việc cần triển khai trong tuần này:
+### Tasks to be implemented this week:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Học Module 04: Storage Services <br>&emsp;+ Amazon S3 nâng cao <br>&emsp;+ Storage Class <br>&emsp;+ Amazon Glacier <br>&emsp;+ AWS Storage Gateway | 06/07/2026 | 06/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Thực hành Module 04 <br>&emsp;+ VM Import/Export <br>&emsp;+ Amazon FSx <br>&emsp;+ Quản lý Storage Quotas <br>&emsp;+ Shadow Copies | 07/07/2026 | 07/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Xác định các chức năng của hệ thống và backend API mà từng chức năng cần có <br>&emsp;+ Quản lý sách <br>&emsp;+ Quản lý độc giả <br>&emsp;+ Mượn/trả sách <br>&emsp;+ Quản lý tài khoản <br> - Phân loại chức năng theo từng Actor | 08/07/2026 | 08/07/2026 | Team Discussion |
-| T5 | - Thiết kế Use Case Diagram <br>&emsp;+ Xây dựng các Use Case chính <br>&emsp;+ Xác định quan hệ Include và Extend <br>&emsp;+ Hoàn thiện sơ đồ bằng Draw.io | 09/07/2026 | 09/07/2026 | Team Discussion |
-| T6 | - Review Use Case Diagram với các thành viên <br> - Hoàn thiện tài liệu Use Case Specification cho từng chức năng | 10/07/2026 | 10/07/2026 | Team Discussion |
+| Day | Tasks | Start Date | Completion Date | Reference Materials |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| Mon | - Study: Static Website Hosting with Amazon S3 <br>&emsp;+ Configure S3 Bucket for Website Hosting <br>&emsp;+ Bucket Policy and public access permissions <br>&emsp;+ Deploy static website on S3 | 29/06/2026 | 29/06/2026 | https://000057.awsstudygroup.com |
+| Tue | - Study: Database Essentials with Amazon RDS <br>&emsp;+ Provision RDS Instance <br>&emsp;+ Choose Database Engine <br>&emsp;+ Connect Backend application to RDS <br>&emsp;+ Backup & Multi-AZ | 30/06/2026 | 30/06/2026 | https://000005.awsstudygroup.com |
+| Wed | - Collaborate with team to finalize system analysis <br>&emsp;+ Design Use Case Diagram <br>&emsp;+ Identify core Use Cases <br>&emsp;+ Complete Entity Relationship Diagram (ERD) as foundation for Backend Models | 01/07/2026 | 01/07/2026 | Team discussions |
+| Thu | - Build Backend database structure <br>&emsp;+ Design Django Models <br>&emsp;+ Run Migrations <br>&emsp;+ Build foundational features: Book, Category, Publisher | 02/07/2026 | 02/07/2026 | Project Codebase |
+| Fri | - Test initial Backend features <br>&emsp;+ Verify Models and Migrations <br>&emsp;+ Review system design with team members <br>&emsp;+ Prepare for developing business features in the next Sprint | 03/07/2026 | 03/07/2026 | Project Codebase |
 
-### Kết quả đạt được tuần 4:
+### Week 4 Achievements:
 
-* Nắm được các dịch vụ Storage nâng cao của AWS: Storage Class, Amazon Glacier, AWS Storage Gateway.
+* Gained solid understanding of configuring Amazon S3 to store and deploy static websites (Bucket Policy, public access permissions).
 
-* Hoàn thành các bài thực hành Module 04: VM Import/Export, Amazon FSx, quản lý Storage Quotas.
+* Mastered provisioning and connecting Amazon RDS as the database for the Backend application, including Backup & Multi-AZ concepts.
 
-* Xác định đầy đủ các chức năng của hệ thống Quản lý thư viện và ánh xạ ra các backend API tương ứng, phân loại theo từng Actor.
+* Finalized Use Case Diagram and Entity Relationship Diagram (ERD) for the Library Management system.
 
-* Hoàn thành Use Case Diagram, thể hiện tương tác giữa người dùng và hệ thống.
+* Successfully built the database structure using Django Models, executed Migrations, and implemented initial foundational features: Book, Category, Publisher.
 
-* Hoàn thiện tài liệu Use Case Specification, làm cơ sở cho việc thiết kế cơ sở dữ liệu (ERD) trong tuần tiếp theo.
+* Tested initial Backend features, reviewed system design with the team, and prepared for business logic implementation in the next Sprint.

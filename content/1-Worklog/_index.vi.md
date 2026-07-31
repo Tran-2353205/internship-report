@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
+Trong thời gian thực tập từ **08/06/2026 đến 14/08/2026**, mình tham gia chương trình **First Cloud AI Journey** do AWS Study Group tổ chức. Do hoàn thành và nộp báo cáo sớm, nội dung nhật ký công việc này tổng hợp toàn bộ quá trình học tập và làm việc tính đến ngày **31/07/2026** (tương ứng với **08 tuần đầu tiên**).
 
-
-Trong thời gian thực tập từ **15/06/2026 đến 14/08/2026**, mình tham gia chương trình **First Cloud AI Journey** do AWS Study Group tổ chức. Trong suốt **09 tuần thực tập**, mình được học tập và thực hành các dịch vụ nền tảng của Amazon Web Services (AWS), đồng thời áp dụng những kiến thức đã học vào việc phát triển **Website Quản lý thư viện** theo hình thức làm việc nhóm.
+Trong suốt 08 tuần này, mình được học tập và thực hành các dịch vụ nền tảng của Amazon Web Services (AWS), đồng thời áp dụng những kiến thức đã học vào việc phát triển **Website Quản lý thư viện** theo hình thức làm việc nhóm.
 
 Bên cạnh việc hoàn thành các bài học và bài thực hành trong chương trình, nhóm cũng thực hiện đầy đủ quy trình phát triển phần mềm từ khảo sát yêu cầu, xây dựng proposal, phân tích hệ thống, thiết kế, triển khai đến kiểm thử và hoàn thiện sản phẩm.
 

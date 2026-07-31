@@ -1,35 +1,34 @@
 ---
-title: "Worklog Tuần 1"
+title: "Worklog Week 1"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Mục tiêu tuần 1:
+### Objectives for Week 1:
 
-* Ôn tập kiến thức nền tảng backend: RESTful API, HTTP và cơ sở dữ liệu quan hệ.
-* Tìm hiểu các khái niệm cơ bản về Điện toán đám mây và AWS, hoàn thành Module 01 để chuẩn bị cho chương trình chính thức.
-* Nắm được lịch trình, yêu cầu và kết quả mong đợi của chương trình thực tập.
+* Review core Backend concepts: RESTful API, HTTP, and relational databases.
+* Learn fundamental Cloud Computing and AWS concepts, completing Module 01 in preparation for the official program.
+* Understand the internship program schedule, requirements, and expected outcomes.
 
-### Các công việc cần triển khai trong tuần này:
+### Tasks to be implemented this week:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Day | Tasks | Start Date | Completion Date | Reference Materials |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Xác nhận tham gia chương trình First Cloud AI Journey <br> - Xem lại lộ trình học tập, thời gian biểu và yêu cầu chương trình | 15/06/2026 | 15/06/2026 | First Cloud AI Journey |
-| T3 | - Học: Creating Your First AWS Account <br> - Học: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM User, Group, Role, Policy <br>&emsp;+ Thiết lập Virtual MFA | 16/06/2026 | 16/06/2026 | https://000001.awsstudygroup.com <br> https://000002.awsstudygroup.com |
-| T4 | - Học: Managing Costs with AWS Budgets <br> - Học: Getting Help with AWS Support | 17/06/2026 | 17/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |
-| T5 | - Ôn tập kiến thức nền tảng về RESTful API <br>&emsp;+ Các phương thức HTTP (GET, POST, PUT, DELETE) <br>&emsp;+ HTTP Status Code <br>&emsp;+ Cấu trúc Request/Response và định dạng JSON | 18/06/2026 | 18/06/2026 | Tự học |
-| T6 | - Ôn tập kiến thức nền tảng về cơ sở dữ liệu quan hệ <br>&emsp;+ Table, Primary Key, Foreign Key <br>&emsp;+ Chuẩn hóa dữ liệu cơ bản <br>&emsp;+ Câu lệnh SQL cơ bản (SELECT, INSERT, UPDATE, DELETE) | 19/06/2026 | 19/06/2026 | Tự học |
+| Mon | - Confirm participation in the First Cloud AI Journey program <br> - Review learning roadmap, schedule, and program requirements | 08/06/2026 | 08/06/2026 | First Cloud AI Journey |
+| Tue | - Study: Creating Your First AWS Account <br> - Study: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM Users, Groups, Roles, Policies <br>&emsp;+ Set up Virtual MFA | 09/06/2026 | 09/06/2026 | https://000001.awsstudygroup.com <br> https://000002.awsstudygroup.com |
+| Wed | - Study: Managing Costs with AWS Budgets <br> - Study: Getting Help with AWS Support | 10/06/2026 | 10/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |
+| Fri | - Discuss project ideas <br>&emsp;+ Library Management Website <br>&emsp;+ Clinic Management Website <br>&emsp;+ E-commerce Management Website <br> - Evaluate topic feasibility and assign research tasks to prepare the Proposal in the upcoming week | 12/06/2026 | 12/06/2026 | Team discussions |
 
-### Kết quả đạt được tuần 1:
+### Week 1 Achievements:
 
-* Tạo thành công tài khoản AWS và hoàn thành các bài thực hành: thiết lập Virtual MFA, tạo IAM User và IAM Group.
+* Successfully created an AWS account and completed hands-on practices: setting up Virtual MFA, creating IAM Users and IAM Groups.
 
-* Biết cách sử dụng AWS Budgets để theo dõi chi phí và nắm được các gói hỗ trợ của AWS Support.
+* Learned how to use AWS Budgets to track costs and understood AWS Support plans.
 
-* Ôn lại kiến thức về nguyên tắc thiết kế RESTful API và các khái niệm nền tảng của HTTP.
+* Gained foundational knowledge of Amazon Virtual Private Cloud (VPC): CIDR Blocks, Public/Private Subnets, Route Tables, and Internet Gateways.
 
-* Ôn lại kiến thức về cơ sở dữ liệu quan hệ và các câu lệnh SQL cơ bản.
+* Proposed and evaluated initial project ideas (Library Management, Clinic Management, E-commerce Management), assigning research tasks for the upcoming week's Proposal.
 
-* Sẵn sàng chính thức bắt đầu chương trình First Cloud AI Journey với sự hiểu biết rõ ràng về lịch trình và yêu cầu.
+* Fully prepared to start the First Cloud AI Journey program with a clear understanding of the schedule and requirements.

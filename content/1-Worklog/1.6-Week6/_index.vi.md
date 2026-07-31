@@ -19,9 +19,9 @@ pre: " <b> 1.6. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2 | - Học: Scaling Applications with EC2 Auto Scaling <br>&emsp;+ Launch Template <br>&emsp;+ Auto Scaling Group <br>&emsp;+ Scaling Policy <br>&emsp;+ Load Balancer kết hợp Auto Scaling | 13/07/2026 | 13/07/2026 | https://000006.awsstudygroup.com |
 | 3 | - Học: Monitoring with Amazon CloudWatch <br>&emsp;+ CloudWatch Metrics <br>&emsp;+ CloudWatch Alarms <br>&emsp;+ CloudWatch Logs <br>&emsp;+ Thiết lập Dashboard theo dõi hệ thống | 14/07/2026 | 14/07/2026 | https://000008.awsstudygroup.com |
-| 4 | - Hoàn thiện các chức năng Backend <br>&emsp;+ Quản lý mượn/trả sách <br>&emsp;+ Quản lý mức phí phạt <br>&emsp;+ Hoàn thiện phân quyền người dùng | 15/07/2026 | 15/07/2026 | Codebase dự án |
+| 4 | - Hoàn thiện các chức năng Backend <br>&emsp;+ Quản lý mượn/trả sách <br>&emsp;+ Quản lý mức phí phạt <br>&emsp;+ Hoàn thiện phân quyền người dùng | 15/07/2026 | 15/07/2026 | |
 | 5 | - Tích hợp Backend với Frontend <br>&emsp;+ Kiểm tra kết nối API <br>&emsp;+ Kiểm tra luồng dữ liệu giữa các chức năng <br>&emsp;+ Hỗ trợ Frontend xử lý các lỗi tích hợp | 16/07/2026 | 16/07/2026 | Trao đổi nhóm |
-| 6 | - Kiểm thử toàn bộ các chức năng của hệ thống <br>&emsp;+ Kiểm tra API <br>&emsp;+ Sửa lỗi phát sinh <br>&emsp;+ Chuẩn bị môi trường triển khai trên AWS | 17/07/2026 | 17/07/2026 | Codebase dự án |
+| 6 | - Kiểm thử toàn bộ các chức năng của hệ thống <br>&emsp;+ Kiểm tra API <br>&emsp;+ Sửa lỗi phát sinh <br>&emsp;+ Chuẩn bị môi trường triển khai trên AWS | 17/07/2026 | 17/07/2026 | |
 
 ### Kết quả đạt được tuần 6:
 

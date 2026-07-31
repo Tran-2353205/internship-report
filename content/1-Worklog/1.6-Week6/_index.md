@@ -1,36 +1,36 @@
 ---
-title: "Worklog Tuần 6"
+title: "Worklog Week 6"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Mục tiêu tuần 6:
+### Objectives for Week 6:
 
-* Tìm hiểu về các dịch vụ Database của AWS (Module 06), tập trung vào Amazon RDS.
-* Thiết kế kiến trúc backend (System Architecture) cho hệ thống Quản lý thư viện.
-* Thiết kế RESTful API và chốt công nghệ sử dụng cho backend.
-* Thiết lập môi trường phát triển Django, chuẩn bị bước vào giai đoạn code.
+* Learn about Scaling Applications with EC2 Auto Scaling and Monitoring with Amazon CloudWatch.
+* Complete remaining Backend features: book borrowing/returning, late fee management, and user role-based access control.
+* Integrate Backend with Frontend.
+* Test all system functionalities end-to-end and prepare the deployment environment on AWS.
 
-### Các công việc cần triển khai trong tuần này:
+### Tasks to be implemented this week:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Học Module 06: Database Services <br>&emsp;+ Amazon RDS <br>&emsp;+ Amazon Aurora <br>&emsp;+ Amazon Redshift <br>&emsp;+ Amazon ElastiCache | 20/07/2026 | 20/07/2026 | https://000005.awsstudygroup.com |
-| T3 | - Thực hành Module 06 <br>&emsp;+ Tạo database Amazon RDS PostgreSQL <br>&emsp;+ Kết nối tới database <br>&emsp;+ Sao lưu và khôi phục dữ liệu <br>&emsp;+ Thực hành các câu lệnh SQL cơ bản | 21/07/2026 | 21/07/2026 | https://000005.awsstudygroup.com |
-| T4 | - Thiết kế kiến trúc backend (System Architecture Diagram): EC2 - RDS - S3 - CloudWatch trong mô hình VPC | 22/07/2026 | 22/07/2026 | Team Discussion |
-| T5 | - Thiết kế RESTful API bằng Django REST Framework (DRF) <br>&emsp;+ API xác thực người dùng <br>&emsp;+ API quản lý sách <br>&emsp;+ API quản lý độc giả <br>&emsp;+ API mượn/trả sách | 23/07/2026 | 23/07/2026 | Team Discussion |
-| T6 | - Thảo luận và chốt công nghệ sử dụng <br>&emsp;+ Backend Framework: Django + Django REST Framework <br>&emsp;+ Truy xuất dữ liệu qua Django ORM <br>&emsp;+ Docker <br> - Thiết lập môi trường phát triển Django cục bộ | 24/07/2026 | 24/07/2026 | Team Discussion |
+| Day | Tasks | Start Date | Completion Date | Reference Materials |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| Mon | - Study: Scaling Applications with EC2 Auto Scaling <br>&emsp;+ Launch Template <br>&emsp;+ Auto Scaling Group <br>&emsp;+ Scaling Policy <br>&emsp;+ Combining Load Balancer with Auto Scaling | 13/07/2026 | 13/07/2026 | https://000006.awsstudygroup.com |
+| Tue | - Study: Monitoring with Amazon CloudWatch <br>&emsp;+ CloudWatch Metrics <br>&emsp;+ CloudWatch Alarms <br>&emsp;+ CloudWatch Logs <br>&emsp;+ Setting up a system monitoring Dashboard | 14/07/2026 | 14/07/2026 | https://000008.awsstudygroup.com |
+| Wed | - Complete remaining Backend features <br>&emsp;+ Book borrowing and returning management <br>&emsp;+ Fine/Late fee management <br>&emsp;+ Finalize user role-based access control (RBAC) | 15/07/2026 | 15/07/2026 | |
+| Thu | - Integrate Backend with Frontend <br>&emsp;+ Verify API connections <br>&emsp;+ Test cross-functional data flows <br>&emsp;+ Assist Frontend team with integration troubleshooting | 16/07/2026 | 16/07/2026 | Team discussions |
+| Fri | - End-to-end testing of system features <br>&emsp;+ API testing <br>&emsp;+ Fix emerging issues/bugs <br>&emsp;+ Prepare AWS deployment environment | 17/07/2026 | 17/07/2026 | |
 
-### Kết quả đạt được tuần 6:
+### Week 6 Achievements:
 
-* Nắm được các dịch vụ Database của AWS: Amazon RDS, Aurora, Redshift, ElastiCache.
+* Mastered using EC2 Auto Scaling to automatically scale resources in/out based on traffic, combined with Load Balancers.
 
-* Hoàn thành thực hành triển khai Amazon RDS PostgreSQL, kết nối, sao lưu và khôi phục dữ liệu.
+* Understood how to monitor systems using Amazon CloudWatch: Metrics, Alarms, Logs, and setting up visual Dashboards.
 
-* Hoàn thành thiết kế kiến trúc backend của hệ thống, xác định các thành phần chính và cách chúng tương tác với nhau.
+* Completed all remaining Backend features: book borrowing/returning management, fine calculation/management, and role-based access control.
 
-* Hoàn thiện tài liệu thiết kế RESTful API cho các chức năng cốt lõi, chuẩn bị triển khai bằng Django REST Framework.
+* Successfully integrated Backend with Frontend, verified API endpoints, and resolved integration issues.
 
-* Thống nhất công nghệ sử dụng cho backend (Django, DRF, Django ORM, Docker) và thiết lập xong môi trường phát triển Django cục bộ, sẵn sàng bắt đầu code trong tuần tiếp theo.
+* Completed full end-to-end functional testing, fixed detected bugs, and prepared the deployment environment on AWS.

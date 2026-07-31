@@ -1,35 +1,36 @@
 ---
-title: "Worklog Tuần 5"
+title: "Worklog Week 5"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Mục tiêu tuần 5:
+### Objectives for Week 5:
 
-* Tìm hiểu về các dịch vụ Security, Identity & Compliance của AWS (Module 05).
-* Phân tích dữ liệu và thiết kế Entity Relationship Diagram (ERD) cho hệ thống Quản lý thư viện.
-* Hoàn thiện Database Schema, chuẩn bị cho việc xây dựng Django model.
+* Learn about Simplified Computing with Amazon Lightsail and Container Deployment with Lightsail Containers.
+* Develop Backend features: reader management, user account management, and Authentication/Authorization.
+* Build RESTful APIs for core features and collaborate with the Frontend team.
+* Test built APIs.
 
-### Các công việc cần triển khai trong tuần này:
+### Tasks to be implemented this week:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Học Module 05: Security, Identity & Compliance <br>&emsp;+ IAM nâng cao <br>&emsp;+ AWS Organizations <br>&emsp;+ AWS KMS <br>&emsp;+ AWS Security Hub | 13/07/2026 | 13/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Thực hành Module 05 <br>&emsp;+ Kích hoạt AWS Security Hub <br>&emsp;+ Tạo IAM Policy <br>&emsp;+ Switch Role <br>&emsp;+ Quản lý Resource Tags | 14/07/2026 | 14/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Phân tích dữ liệu hệ thống với vai trò thành viên phụ trách mô hình dữ liệu backend <br>&emsp;+ Xác định các Entity <br>&emsp;+ Xác định thuộc tính của từng Entity <br>&emsp;+ Xác định mối quan hệ giữa các bảng dữ liệu | 15/07/2026 | 15/07/2026 | Team Discussion |
-| T5 | - Thiết kế Entity Relationship Diagram (ERD) <br>&emsp;+ Xác định Primary Key và Foreign Key <br>&emsp;+ Chuẩn hóa cơ sở dữ liệu <br>&emsp;+ Hoàn thiện ERD bằng Draw.io | 16/07/2026 | 16/07/2026 | Team Discussion |
-| T6 | - Review ERD cùng các thành viên trong nhóm <br> - Tinh chỉnh mô hình dữ liệu theo phản hồi <br> - Hoàn thiện Database Schema cho giai đoạn phát triển backend | 17/07/2026 | 17/07/2026 | Team Discussion |
+| Day | Tasks | Start Date | Completion Date | Reference Materials |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| Mon | - Study: Simplified Computing with Amazon Lightsail <br>&emsp;+ Provision Lightsail Instance <br>&emsp;+ Configure Networking and Static IP <br>&emsp;+ Compare Lightsail vs. EC2 | 06/07/2026 | 06/07/2026 | https://000045.awsstudygroup.com |
+| Tue | - Study: Container Deployment with Amazon Lightsail Containers <br>&emsp;+ Containerize applications <br>&emsp;+ Deploy Containers to Lightsail <br>&emsp;+ Basic Deployment and Scaling management | 07/07/2026 | 07/07/2026 | https://000046.awsstudygroup.com |
+| Wed | - Develop Backend features <br>&emsp;+ Reader management <br>&emsp;+ User account management <br>&emsp;+ Finalize Authentication and Authorization | 08/07/2026 | 08/07/2026 | Project Codebase |
+| Thu | - Build RESTful APIs for core features <br>&emsp;+ Book <br>&emsp;+ Reader <br>&emsp;+ Publisher <br>&emsp;+ Category <br>- Coordinate with Frontend team to align on data exchange formats | 09/07/2026 | 09/07/2026 | Project Codebase |
+| Fri | - Test built APIs <br>&emsp;+ Test CRUD operations <br>&emsp;+ Test user authentication <br>&emsp;+ Fix emerging bugs and conduct Sprint review | 10/07/2026 | 10/07/2026 | Project Codebase |
 
-### Kết quả đạt được tuần 5:
+### Week 5 Achievements:
 
-* Nắm được các dịch vụ bảo mật và quản lý danh tính của AWS: IAM nâng cao, AWS Organizations, AWS KMS, AWS Security Hub.
+* Understood how to provision and configure Amazon Lightsail Instances and compared use cases between Lightsail and EC2.
 
-* Hoàn thành các bài thực hành Module 05: kích hoạt Security Hub, tạo và quản lý IAM Policy, thực hiện Switch Role.
+* Gained clear knowledge of containerizing applications and deploying them onto Amazon Lightsail Containers.
 
-* Hoàn thành phân tích dữ liệu cho hệ thống Quản lý thư viện với vai trò thành viên phụ trách thiết kế cơ sở dữ liệu.
+* Successfully developed Backend features: reader management, user account management, and finalized Authentication and Authorization.
 
-* Thiết kế và hoàn thiện Entity Relationship Diagram (ERD), thể hiện đầy đủ các entity, thuộc tính và mối quan hệ.
+* Completely built RESTful APIs for core entities (Book, Reader, Publisher, Category) and aligned on data exchange formats with the Frontend team.
 
-* Hoàn thành Database Schema, làm cơ sở cho việc xây dựng Django model và phát triển backend trong các tuần tiếp theo.
+* Tested built APIs (CRUD operations, user authentication) and resolved detected issues.

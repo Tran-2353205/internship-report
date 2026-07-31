@@ -19,7 +19,7 @@ pre: " <b> 1.7. </b> "
 | 2 | - Học: Hybrid DNS Management with Amazon Route 53 <br>&emsp;+ Hosted Zone <br>&emsp;+ Record Type (A, CNAME, MX...) <br>&emsp;+ Routing Policy <br>&emsp;+ Kết hợp Route 53 với hạ tầng Hybrid | 20/07/2026 | 20/07/2026 | https://000010.awsstudygroup.com |
 | 3 | - Học: Command Line Operations with AWS CLI <br>&emsp;+ Cài đặt và cấu hình AWS CLI <br>&emsp;+ Thực hiện các lệnh quản lý dịch vụ AWS <br>&emsp;+ Viết script tự động hóa cơ bản | 21/07/2026 | 21/07/2026 | https://000011.awsstudygroup.com |
 | 4 | - Học: Credentials Management with AWS Secrets Manager <br>&emsp;+ Lưu trữ và quản lý Secret <br>&emsp;+ Tự động xoay vòng (Rotation) Secret <br>&emsp;+ Tích hợp Secrets Manager với ứng dụng Backend | 22/07/2026 | 22/07/2026 | https://000096.awsstudygroup.com |
-| 5 | - Rà soát và sửa lỗi code Backend <br>&emsp;+ Kiểm tra lại các API đã xây dựng <br>&emsp;+ Sửa các lỗi logic và xử lý ngoại lệ <br>&emsp;+ Refactor code cho rõ ràng, dễ bảo trì | 23/07/2026 | 23/07/2026 | Codebase dự án |
+| 5 | - Rà soát và sửa lỗi code Backend <br>&emsp;+ Kiểm tra lại các API đã xây dựng <br>&emsp;+ Sửa các lỗi logic và xử lý ngoại lệ <br>&emsp;+ Refactor code cho rõ ràng, dễ bảo trì | 23/07/2026 | 23/07/2026 | |
 | 6 | - Tiếp tục sửa lỗi và tối ưu hệ thống <br>&emsp;+ Kiểm tra hiệu năng các truy vấn <br>&emsp;+ Sửa lỗi phát sinh khi tích hợp với Frontend <br>&emsp;+ Review lại toàn bộ code cùng nhóm | 24/07/2026 | 24/07/2026 | Trao đổi nhóm |
 
 ### Kết quả đạt được tuần 7:
