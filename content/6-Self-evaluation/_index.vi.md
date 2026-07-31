@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **First Cloud AI Journey** từ **15/06/2026** đến **14/08/2026**, tôi đã có cơ hội tiếp cận môi trường học tập và làm việc theo mô hình dự án thực tế, với vai trò **Backend Developer** trong dự án xây dựng **Website Quản lý thư viện**.
+Trong suốt thời gian thực tập tại **First Cloud AI Journey** từ **08/06/2026** đến **14/08/2026**, tôi đã có cơ hội tiếp cận môi trường học tập và làm việc theo mô hình dự án thực tế, với vai trò **Backend Developer** trong dự án xây dựng **Website Quản lý thư viện**.
 
 Trong quá trình thực hiện dự án, tôi đảm nhận các công việc thuộc phần backend như: phân tích yêu cầu nghiệp vụ, xây dựng API và xử lý logic nghiệp vụ bằng **Django**, đóng gói ứng dụng bằng **Docker**, đồng thời tìm hiểu và thực hành triển khai hạ tầng backend trên nền tảng **AWS** (VPC, EC2, RDS, S3, CloudWatch). Bên cạnh đó, tôi cũng tham gia hỗ trợ viết Proposal và tài liệu kỹ thuật liên quan đến phần backend của dự án.
 
