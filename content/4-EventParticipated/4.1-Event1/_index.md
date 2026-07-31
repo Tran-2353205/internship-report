@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report Report: "Saturday Meetup"
+# Summary Report Report: "Saturday Meet up"
 
 ### Event Purpose
 
