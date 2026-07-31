@@ -3,71 +3,65 @@ title: "Blog 1"
 date: 2024-01-01
 weight: 1
 chapter: false
-pre: " <b> 3.1. </b> "
+pre: " <b> 3.2. </b> "
 ---
+# SERVERLESS BOOKSTORE: LÀM QUEN VỚI AWS LAMBDA FUNCTIONS
 
-# TỰ ĐỘNG HÓA QUẢN LÝ DỮ LIỆU: TRIỂN KHAI HỆ THỐNG BACKUP & RESTORE TOÀN DIỆN TRÊN AWS
-
-Trong các hệ thống hiện đại, việc sao lưu dữ liệu (Backup) là chưa đủ nếu không thể đảm bảo khả năng khôi phục (Restore) khi xảy ra sự cố. AWS cung cấp bộ dịch vụ **AWS Backup**, kết hợp với **Amazon SNS**, **AWS Lambda** và **Amazon EC2**, giúp tự động hóa toàn bộ quy trình sao lưu, kiểm tra khả năng phục hồi và tối ưu chi phí vận hành.
+AWS Lambda là dịch vụ Serverless Computing trên nền tảng AWS, cho phép chạy code mà không cần tự quản lý máy chủ. Thay vì phải chuẩn bị hạ tầng, cài đặt môi trường, theo dõi tài nguyên như khi dùng EC2, Lambda chỉ chạy khi có sự kiện xảy ra và tự động thu hồi tài nguyên sau khi hoàn thành, giúp tiết kiệm chi phí và phù hợp với các tác vụ xử lý theo sự kiện như upload file, gửi email hay xử lý ảnh.
 
 Các điểm chính cần nắm:
 
-* AWS Backup cho phép xây dựng và quản lý tập trung các kế hoạch sao lưu cho nhiều dịch vụ như Amazon EC2, Amazon RDS, Amazon EBS và Amazon DynamoDB.
-* Áp dụng các chỉ số **RPO (Recovery Point Objective)** và **RTO (Recovery Time Objective)** để xây dựng chiến lược bảo vệ dữ liệu phù hợp với từng hệ thống.
-* Triển khai hạ tầng bằng **AWS CloudFormation (Infrastructure as Code)** giúp tự động tạo EC2, SNS, Lambda và các tài nguyên liên quan, giảm thiểu lỗi cấu hình thủ công.
-* Sử dụng **Tag-based Backup** để tự động bảo vệ các tài nguyên có cùng nhãn mà không cần cấu hình riêng lẻ.
-* Kết hợp **Amazon SNS** và **AWS Lambda** để tự động kiểm tra khả năng phục hồi sau mỗi lần sao lưu.
-* Tự động thực hiện **Test Restore**, xác minh hệ thống hoạt động bình thường trước khi xóa tài nguyên phục hồi nhằm tối ưu chi phí.
-* Theo dõi và xác minh trạng thái Backup thông qua **AWS CLI** và các thông báo từ Amazon SNS.
-* Áp dụng các nguyên tắc **Automation**, **Infrastructure as Code** và **Least Privilege** để xây dựng hệ thống sao lưu an toàn, dễ mở rộng và phù hợp với môi trường Production.
+* AWS Lambda là dịch vụ **Serverless Computing**, cho phép chạy code mà không cần tự quản lý, cấu hình hay bảo trì máy chủ.
+* Hoạt động theo cơ chế **Event-driven**: Lambda chỉ khởi động khi nhận được sự kiện (Event) từ các dịch vụ AWS khác.
+* Có thể nhận sự kiện kích hoạt từ nhiều nguồn như **Amazon S3, DynamoDB, API Gateway, EventBridge, SNS, SQS**.
+* Lambda mặc định không có quyền truy cập bất kỳ dịch vụ AWS nào; cần cấp quyền thông qua **IAM Execution Role**.
+* **Amazon CloudWatch** tự động ghi lại thời gian thực thi, số lần gọi, trạng thái thành công/lỗi và log do lập trình viên in ra.
+* Cần lưu ý về rủi ro **vòng lặp vô hạn** khi cấu hình S3 Trigger: nếu Lambda ghi kết quả trở lại cùng Bucket đã kích hoạt nó, file mới sẽ tiếp tục kích hoạt Lambda và gây ra hàng nghìn lượt thực thi ngoài ý muốn.
+* Nên lưu kết quả sang một Bucket khác hoặc cấu hình Trigger để chỉ xử lý một số loại file nhất định nhằm tránh lỗi trên.
 
-Giải pháp này đặc biệt phù hợp với các hệ thống yêu cầu tính sẵn sàng cao, giúp doanh nghiệp tự động hóa quy trình sao lưu, giảm thiểu rủi ro mất dữ liệu và đảm bảo khả năng khôi phục nhanh chóng khi xảy ra sự cố.
+AWS Lambda đặc biệt phù hợp với các tác vụ xử lý theo sự kiện, quy mô nhỏ và không cần chạy liên tục, giúp lập trình viên tập trung vào việc viết code thay vì quản lý hạ tầng, đồng thời tối ưu chi phí và khả năng mở rộng cho các kiến trúc Cloud hiện đại.
 
-
-
-## Nguồn tham khảo
-
-- Workshop: https://000133.awsstudygroup.com/
 
 ## Hướng dẫn thực hiện
 
-### Bước 1: Chuẩn bị hạ tầng
+### Bước 1: Tìm hiểu về AWS Lambda
 
-- Tạo S3 Bucket lưu trữ CloudFormation Template và mã nguồn Lambda.
-- Chuẩn bị các tệp:
-  - backup-lab.yaml
-  - lambda_function.zip
-- Triển khai Stack bằng AWS CloudFormation tại Region **ap-southeast-1 (Singapore)**.
+- Truy cập dịch vụ **AWS Lambda** trên AWS Console.
+- Tìm hiểu khái niệm Serverless Computing và sự khác biệt giữa Lambda và EC2.
+- Xác định các tác vụ phù hợp để triển khai bằng Lambda, ví dụ: tạo thumbnail ảnh, kiểm tra định dạng file, gửi email xác nhận đơn hàng.
 
-### Bước 2: Tạo Backup Plan
+### Bước 2: Tạo Lambda Function
 
-- Tạo Backup Vault.
-- Cấu hình Backup Rule theo lịch hằng ngày.
-- Thiết lập Resource Assignment dựa trên Tag.
-- Gán IAM Role cho AWS Backup.
+- Chọn **Create Function**.
+- Chọn runtime phù hợp (ví dụ: Python, Node.js).
+- Viết đoạn code xử lý tác vụ mong muốn.
 
-### Bước 3: Cấu hình thông báo
+### Bước 3: Cấu hình Execution Role
 
-- Tạo Amazon SNS Topic.
-- Đăng ký Email nhận thông báo.
-- Cấu hình Backup Vault Notification bằng AWS CLI.
+- Tạo hoặc chọn một **IAM Role** cho Lambda Function.
+- Cấp quyền cần thiết để Lambda có thể truy cập các dịch vụ AWS liên quan, ví dụ như Amazon S3.
 
-### Bước 4: Tự động kiểm tra phục hồi
+### Bước 4: Thiết lập Trigger
 
-- Tạo AWS Lambda để thực hiện Test Restore.
-- Cấu hình SNS kích hoạt Lambda khi Backup hoàn tất.
-- Kiểm tra trạng thái Restore và xác thực ứng dụng hoạt động bình thường.
+- Cấu hình sự kiện kích hoạt (Trigger) cho Lambda, ví dụ như sự kiện upload file lên **Amazon S3**.
+- Kiểm tra kỹ cấu hình để tránh vòng lặp vô hạn nếu output cũng được ghi vào cùng Bucket kích hoạt Trigger.
 
-### Bước 5: Kiểm thử hệ thống
+### Bước 5: Kiểm tra và giám sát
 
-- Thực hiện Backup theo yêu cầu.
-- Kiểm tra Email thông báo.
-- Theo dõi quá trình Restore.
-- Xác minh các tài nguyên phục hồi được tự động dọn dẹp sau khi kiểm tra thành công.
+- Thực hiện thao tác kích hoạt sự kiện (ví dụ: upload file lên S3).
+- Truy cập **Amazon CloudWatch** để xem log, thời gian thực thi và trạng thái chạy của Lambda Function.
+- Kiểm tra và xử lý lỗi nếu có dựa trên thông tin log.
 
 ### Kết quả đạt được
 
-- Tự động hóa toàn bộ quy trình Backup và Restore trên AWS.
-- Kiểm tra khả năng khôi phục dữ liệu sau mỗi lần sao lưu.
-- Giảm thiểu thao tác thủ công nhờ Infrastructure as Code.
-- Nâng cao khả năng bảo vệ dữ liệu và tối ưu chi phí vận hành.
+- Hiểu được khái niệm và vai trò của **AWS Lambda** trong kiến trúc Serverless.
+- Phân biệt được sự khác nhau giữa **Lambda** và **EC2** trong cách vận hành.
+- Nắm được cơ chế **Event-driven** và các nguồn sự kiện phổ biến kích hoạt Lambda.
+- Hiểu vai trò của **IAM Execution Role** trong việc cấp quyền cho Lambda.
+- Biết cách sử dụng **CloudWatch** để giám sát và debug Lambda Function.
+- Nhận biết và biết cách phòng tránh lỗi **vòng lặp vô hạn** khi cấu hình S3 Trigger.
+
+## Nguồn tham khảo
+
+- Workshop: https://000078.awsstudygroup.com/
+- Video hướng dẫn: https://youtu.be/eOBq__h4OJ4?si=ulpAoOrEMKxXV9iq

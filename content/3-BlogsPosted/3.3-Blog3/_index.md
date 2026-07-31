@@ -1,31 +1,68 @@
 ---
 title: "Blog 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+# AWS KMS – WHAT I LEARNED ABOUT AWS'S ENCRYPTION KEY MANAGEMENT SERVICE
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+AWS Key Management Service (AWS KMS) is AWS's managed encryption key management service that enables users to securely create, store, and control the use of cryptographic keys. When integrated with services such as Amazon S3, Amazon EBS, Amazon RDS, and Amazon DynamoDB, AWS KMS protects data at rest through encryption while providing centralized access control and key usage auditing via AWS CloudTrail.
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+The key concepts include:
 
-Key points to know:
+* AWS KMS is a **Fully Managed** service for creating, storing, and managing encryption keys on AWS.
+* Supports **Encryption at Rest** for multiple AWS services, including **Amazon S3, Amazon EBS, Amazon RDS**, and **Amazon DynamoDB**.
+* Distinguishes between **Encryption in Transit** (encrypting data while it is being transmitted) and **Encryption at Rest** (encrypting stored data).
+* Uses a combination of **Customer Master Keys (CMKs)** and **Data Keys** to securely and efficiently encrypt large amounts of data.
+* Encryption keys are protected within **Hardware Security Modules (HSMs)** and cannot be directly extracted.
+* Integrates with **AWS CloudTrail** to record all key usage activities for auditing and compliance purposes.
+* Access to data stored in Amazon S3 and permission to use a KMS key are independent. Users must have permission to use the KMS key before they can decrypt encrypted data.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+AWS KMS is particularly suitable for systems that require a high level of security, enabling organizations to centrally manage encryption keys, enforce access control, and protect data across multiple AWS services.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+## Implementation Guide
 
-...Image...
+### Step 1: Create an Encryption Key in AWS KMS
 
-...Link...
+- Open the **AWS Key Management Service** console.
+- Select **Create Key**.
+- Configure the following settings:
+  - Symmetric Key
+  - Encrypt and Decrypt
+  - Single Region
+- Assign an Alias and configure the **Key Administrators** and **Key Users**.
 
-...Guide...
+### Step 2: Create an Amazon S3 Bucket
+
+- Create a new Amazon S3 bucket.
+- Enable **Default Encryption**.
+- Select **Server-side encryption using AWS KMS (SSE-KMS)**.
+- Specify the KMS key created in the previous step.
+
+### Step 3: Upload Data to Amazon S3
+
+- Upload any file to the bucket.
+- Verify the **Properties** section to confirm that the object has been encrypted using the specified KMS key.
+
+### Step 4: Verify Access Permissions
+
+- Create an IAM user with only **Amazon S3 Full Access** permissions and attempt to download the encrypted object.
+- Observe the **Access Denied** error because the user has not been granted permission to use the KMS key.
+- Add the IAM user to the **Key Users** list of the KMS key.
+- Test again and verify that the user can now access and decrypt the object successfully.
+
+## Results Achieved
+
+- Gained an understanding of the role of AWS KMS in managing encryption keys on AWS.
+- Learned the difference between **Encryption in Transit** and **Encryption at Rest**.
+- Understood how **Customer Master Keys (CMKs)** and **Data Keys** work together during the encryption process.
+- Learned how to configure Amazon S3 encryption using **AWS KMS**.
+- Understood the relationship between **AWS IAM**, **Amazon S3**, and **AWS KMS** in controlling access to encrypted data.
+- Learned how to use **AWS CloudTrail** to monitor and audit encryption key usage.
+
+## References
+
+- Workshop: https://000033.awsstudygroup.com/
+- Tutorial Video: https://youtu.be/SCZpW-3b5G0?si=fM551VA4uu49_EWJ
+- AWS Documentation: https://docs.aws.amazon.com/kms/

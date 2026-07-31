@@ -1,31 +1,70 @@
 ---
 title: "Blog 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# AWS KMS – SAU KHI TÌM HIỂU, MÌNH HIỂU GÌ VỀ DỊCH VỤ QUẢN LÝ KHÓA MÃ HÓA CỦA AWS?
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
-
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+AWS Key Management Service (AWS KMS) là dịch vụ quản lý khóa mã hóa trên nền tảng AWS, giúp tạo, lưu trữ và kiểm soát việc sử dụng các khóa mã hóa một cách an toàn. Kết hợp với các dịch vụ như Amazon S3, Amazon EBS, Amazon RDS và DynamoDB, AWS KMS giúp bảo vệ dữ liệu lưu trữ (Encryption at Rest) đồng thời hỗ trợ quản lý quyền truy cập và theo dõi lịch sử sử dụng khóa thông qua AWS CloudTrail.
 
 Các điểm chính cần nắm:
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+* AWS KMS là dịch vụ **Fully Managed** giúp tạo, lưu trữ và quản lý các khóa mã hóa (Encryption Keys) trên AWS.
+* Hỗ trợ mã hóa dữ liệu lưu trữ (**Encryption at Rest**) cho nhiều dịch vụ như **Amazon S3, Amazon EBS, Amazon RDS** và **Amazon DynamoDB**.
+* Phân biệt giữa **Encryption in Transit** (mã hóa khi truyền dữ liệu) và **Encryption at Rest** (mã hóa khi lưu trữ dữ liệu).
+* Sử dụng mô hình **Customer Master Key (CMK)** kết hợp với **Data Key** để mã hóa dữ liệu có kích thước lớn một cách an toàn và hiệu quả.
+* Các khóa mã hóa được bảo vệ bên trong **Hardware Security Module (HSM)** và không thể tải trực tiếp ra ngoài.
+* Tích hợp với **AWS CloudTrail** để ghi lại toàn bộ lịch sử sử dụng khóa, hỗ trợ kiểm tra và truy vết hoạt động.
+* Quyền truy cập dữ liệu trên Amazon S3 và quyền sử dụng khóa KMS là hai quyền độc lập; người dùng cần được cấp quyền sử dụng khóa mới có thể giải mã dữ liệu.
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+AWS KMS đặc biệt phù hợp với các hệ thống yêu cầu mức độ bảo mật cao, giúp doanh nghiệp quản lý tập trung các khóa mã hóa, kiểm soát quyền truy cập và bảo vệ dữ liệu trên nhiều dịch vụ AWS.
 
-...Hình ảnh...
+## Hướng dẫn thực hiện
 
-...Link...
+### Bước 1: Tạo khóa mã hóa trong AWS KMS
 
-...Hướng dẫn...
+- Truy cập dịch vụ **AWS Key Management Service**.
+- Chọn **Create Key**.
+- Cấu hình:
+  - Symmetric Key.
+  - Encrypt and Decrypt.
+  - Single Region.
+- Đặt Alias và cấu hình **Key Administrator**, **Key Users**.
+
+### Bước 2: Tạo Amazon S3 Bucket
+
+- Tạo một S3 Bucket mới.
+- Chọn **Default Encryption**.
+- Chọn **Server-side encryption using AWS KMS (SSE-KMS)**.
+- Chỉ định khóa KMS vừa tạo.
+
+### Bước 3: Tải dữ liệu lên S3
+
+- Upload một tệp bất kỳ lên Bucket.
+- Kiểm tra phần **Properties** để xác nhận dữ liệu đã được mã hóa bằng khóa KMS.
+
+### Bước 4: Kiểm tra quyền truy cập
+
+- Tạo IAM User chỉ có quyền **Amazon S3 Full Access** và thử tải tệp về.
+- Quan sát lỗi **Access Denied** do chưa được cấp quyền sử dụng khóa KMS.
+- Thêm IAM User vào danh sách **Key Users** của khóa KMS.
+- Kiểm tra lại và xác nhận người dùng đã có thể truy cập dữ liệu.
+
+### Kết quả đạt được
+
+- Hiểu được vai trò của AWS KMS trong việc quản lý khóa mã hóa trên AWS.
+- Phân biệt được **Encryption in Transit** và **Encryption at Rest**.
+- Nắm được cơ chế hoạt động của **CMK** và **Data Key** trong quá trình mã hóa dữ liệu.
+- Biết cách cấu hình mã hóa Amazon S3 bằng **AWS KMS**.
+- Hiểu được mối quan hệ giữa **IAM**, **Amazon S3** và **AWS KMS** trong việc kiểm soát quyền truy cập dữ liệu.
+- Biết cách sử dụng **AWS CloudTrail** để theo dõi lịch sử sử dụng khóa mã hóa.
+
+## Nguồn tham khảo
+
+- Workshop: https://000033.awsstudygroup.com/
+- Video hướng dẫn: https://youtu.be/SCZpW-3b5G0?si=fM551VA4uu49_EWJ
+- AWS Documentation: https://docs.aws.amazon.com/kms/
+
+![](/images/3-Blog/Blog-3/blog-3.png)
