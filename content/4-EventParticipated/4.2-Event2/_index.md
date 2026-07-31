@@ -1,102 +1,109 @@
 ---
 title: "Event 2"
-date: 2024-01-01
-weight: 1
+date: 2026-06-20
+weight: 2
 chapter: false
-pre: " <b> 4.3. </b> "
+pre: " <b> 4.2. </b> "
 ---
+# Summary Report Report: "Cloud Architect"
 
-# Reflection Report: "FCAJ - Agentic AI Build Week"
+### Event Purpose
 
-### Event Objectives
+- Provide an engaging technology playground through a competitive trivia gameshow, strengthening team bonding while fostering proactive learning habits.
+- Systematize core architectural concepts on AWS through practical scenario-based questions.
+- Train risk management mindsets, fast decision-making under time pressure, and teamwork skills for competing teams.
+- Create networking opportunities among intern groups and the broader cloud student community.
 
-- Share the experiences of participating teams after joining **Agentic AI Build Week**.
-- Introduce the process of building AI products from idea to prototype.
-- Inspire participants on how to apply Generative AI to solve real-world problems.
-- Provide networking and learning opportunities among developers, Solution Architects, and AI enthusiasts.
+### List of 8 Participating Teams
+
+- **NGŨ ĐẠI HIỆP**
+- **KTLT**
+- **PrimeOps**
+- **YoungFlame IT**
+- **LOSERR**
+- **GẶP PHẢI THẰNG LIỀU**
+- **LIFE LONG LEARNER**
+- **KLKAT**
+
+---
 
 ### Key Highlights
 
-#### Hackathon Journey Sharing
+#### 1. Security, Compliance & Operations
 
-- Speakers from the teams that participated in **Agentic AI Build Week** shared their entire journey, from the initial idea to the final product.
-- Each team discussed the challenges they encountered during development, how they divided responsibilities, and how team members collaborated to complete the product within a limited timeframe.
-- The presentations focused not only on the final results but also on the practical experiences gained throughout product development and presentation preparation.
+- **AWS Artifact:** A central resource for retrieving international compliance reports and certificates (ISO, PCI, SOC) for auditing purposes.
+- **AWS WAF:** Configuring Rate-based Rules to effectively mitigate Layer 7 attacks and control abnormal traffic patterns while maintaining optimal user experience.
+- **Amazon S3 Bucket Policy:** Granular access control mechanisms for static storage resources.
+- **AWS Systems Manager Patch Manager:** Automating patch management processes (Patch Groups, Patch Baselines) based on EC2 Tags to reduce operational costs and overhead.
 
-#### AI Product Development Experience
+#### 2. AWS Well-Architected Framework
 
-- A common message emphasized by all teams was that **solving a real-world problem is more important than choosing the latest technology**.
-- Instead of attempting to build a fully completed product from the beginning, the teams focused on developing a prototype to validate their ideas.
-- AI was viewed as a productivity tool that accelerated development and supported multiple stages of the product development process.
+- Evaluating and applying core pillars of the **AWS Well-Architected Framework**.
+- Deep dive into the **Performance Efficiency** pillar, focusing on choosing the right resource types and sizing to match system demands.
 
-#### Development Process During the Hackathon
+#### 3. Database & Event Handling
 
-- The teams explained how they started by identifying requirements, selecting solution approaches, designing the overall architecture, and developing the product.
-- The development process was highly iterative, involving continuous testing, refinement, and improvement based on intermediate results.
-- Various AWS AI and Cloud services were utilized to shorten development time and simplify deployment.
+- **Amazon DynamoDB:** An optimal choice for high-traffic mobile applications due to ultra-low latency and seamless auto-scaling capability.
+- **DynamoDB Streams + AWS Lambda:** Event-driven architecture model that automatically triggers data processing upon state changes.
+- Distinguishing practical usage contexts between **DynamoDB Streams** and **DAX Cluster**.
 
-#### Overall Perspective on the Projects
+#### 4. Cloud Infrastructure, Hybrid Architecture & Auto Scaling
 
-- The showcased projects focused on solving practical problems using Generative AI.
-- Although each team pursued a different approach, all demonstrated the broad applicability of AI across various business domains.
-- The presentations highlighted that AI can support not only software development but also requirements analysis, solution design, documentation generation, and productivity improvement.
+- **AWS Storage Gateway (File Gateway):** Hybrid Cloud solution seamlessly connecting existing On-Premises environments with AWS via SMB protocol.
+- **Amazon S3 Lifecycle Rules:** Automated lifecycle policies to transition backup data to Amazon S3 Glacier for long-term retention and cost optimization.
+- **AWS Pricing Calculator:** Estimating cloud infrastructure costs accurately prior to actual deployment.
+- **Amazon EC2 Auto Scaling:** Dynamically adjusting resource capacity based on real-time traffic fluctuations.
+- **Application Load Balancer (ALB):** Smart traffic routing using Path-based Routing and Host-based Routing.
 
-### What I Learned
+#### 5. Tactical Elements in the Competition
 
-#### Product Development Mindset
+- **"Minimum Risk" Strategy:** Playing it safe to protect scores when facing uncertain questions.
+- **"Hope Star" Card:** Strategic timing to double points, creating game-changing moments on decisive questions.
 
-- The value of a product lies in its ability to solve real-world problems rather than simply adopting new technologies.
-- Developing a prototype is an effective way to validate an idea before investing in full-scale development.
-- Continuous experimentation and improvement help create products that better meet user needs.
+---
 
-#### Hackathon Experience
+### Key Takeaways
 
-- Proper task allocation allows each team member to contribute their strengths effectively.
-- Communication and collaboration are essential throughout the development process.
-- Preparing a strong presentation is just as important as building the product itself.
+#### System Design Mindset
 
-#### Applying AI to Software Development
+- **Risk Management & Trade-offs:** Evaluating risks and balancing Cost, Performance, and Security during solution design.
+- **Modernization & Automation:** Understanding how to combine Serverless, Hybrid Storage, and automated management tools to optimize operational workflows.
 
-- AI can assist with requirements analysis and documentation.
-- AI accelerates the development of prototypes.
-- AI tools support documentation generation, architecture design, and the implementation of certain system components.
-- Combining AI with human expertise delivers better results than relying entirely on AI.
+#### Advanced Architectural Skills
 
-### Applying the Knowledge to My Work
+- Clearly differentiating boundaries and application scopes for key AWS service pairs: **WAF vs. NACL**, **DynamoDB Streams vs. DAX**, **ALB vs. NLB**, and **Systems Manager vs. Custom Scripts**.
+- Comprehending and flexibly applying standard principles from the **AWS Well-Architected Framework** to real-world scenarios.
 
-- Adopt a prototype-first approach before developing a complete product.
-- Utilize AI to assist with requirements analysis and technical documentation.
-- Use AI tools to improve productivity throughout the software development process.
-- Actively participate in Hackathons to gain practical experience and strengthen teamwork skills.
+---
 
-### My Experience at the Event
+### Event Experience & Personal Impressions
 
-Participating in the **FCAJ – Agentic AI Build Week** sharing session gave me valuable insights into the practical process of developing AI products in a Hackathon environment. Rather than focusing primarily on technologies, the speakers spent most of their time sharing real experiences, from generating ideas to completing their products and presenting them to the judges.
+Participating in the **"Cloud Architect"** gameshow as an audience member was an engaging learning experience that made abstract AWS concepts much more intuitive and vivid.
 
-#### Learning from Real-world Experiences
+#### Learning through Real-World Scenarios
 
-- What impressed me most was that the speakers shared not only their successes but also the challenges and mistakes they encountered during development.
-- Through these experiences, I realized that building an AI product depends not only on technical skills but also on teamwork, time management, and the ability to continuously adapt the development direction.
+- The scenario-based questions closely mirrored challenges faced by enterprises, helping me self-evaluate my current knowledge level.
+- Detailed answer explanations from the organizers clarified why a specific AWS service was the optimal choice for a given problem.
 
-#### Product Development Perspective
+#### Vibrant Competitive Atmosphere
 
-- One key message repeatedly emphasized was that **solving the right problem is more important than selecting the latest technology**.
-- Rapid prototyping enables teams to validate product feasibility quickly and gather early feedback for continuous improvement.
+- Observing how competing teams analyzed problems and made decisions helped me learn rapid decision-making under time pressure.
+- The fierce score races among the 8 teams generated positive energy and strong learning motivation.
+- Strategic plays like the **"Hope Star"** or **"Minimum Risk"** demonstrated the importance of risk management and timely decision-making.
 
-#### A Better Understanding of AI's Role
+#### Networking & Connection
 
-- The examples demonstrated that AI can support many stages of software development, including requirements analysis, documentation, architecture design, and software implementation.
-- This significantly reduces the time spent on repetitive tasks, allowing developers to focus on more critical decisions.
+- The event served as a bridge to meet and exchange experiences with fellow students who share a passion for Cloud Computing.
+- Side conversations yielded new perspectives on approaching real-world cloud architectural challenges.
 
-#### Key Takeaways
+#### Core Lessons Learned
 
-- Always start with the real-world problem before selecting technologies.
-- AI is a productivity tool that enhances human capabilities rather than replacing people.
-- Teamwork, effective task allocation, and time management are critical success factors in Hackathons.
-- Continuous testing and iterative improvement lead to more refined products that better satisfy user needs.
+- Scenario-based learning reinforces AWS knowledge far more effectively than purely theoretical concepts.
+- System design demands a holistic view encompassing Cost, Performance, Security, and Scalability before selecting services.
+- Carefully analyzing problem requirements and understanding service characteristics are key to making accurate architectural decisions.
 
 #### Event Photos
 
-* Add your event photos here.
+![](/images/4-Event/event2.jpg)
 
-> Overall, the **FCAJ – Agentic AI Build Week** sharing session helped me gain a deeper understanding of the journey of participating in Agentic AI Build Week while providing valuable practical insights into AI product development, teamwork, and the application of Generative AI to solve real-world problems. It was a highly valuable experience that motivated me to continue learning and applying AI in future projects.
+> Overall, the **Cloud Architect** gameshow was not only an effective review of AWS services but also sharpened my analytical thinking, architectural evaluation skills, and decision-making in real-world situations. It was a valuable learning experience that further motivated me to pursue and advance my skills in Cloud Computing.
