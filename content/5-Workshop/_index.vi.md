@@ -26,7 +26,7 @@ Hệ thống sử dụng các dịch vụ AWS chính sau, mỗi dịch vụ đó
 #### Nội dung
 
 1. [Giới thiệu](5.1-Workshop-overview/)
-2. [Các bước chuẩn bị](5.2-Prerequisites/)
+2. [Các bước chuẩn bị](5.2-Prerequisite/)
 3. [Thiết lập mạng (VPC)](5.3-Network-setup/)
 4. [Thiết lập bảo mật (Security Groups & IAM)](5.4-Security-setup/)
 5. [Triển khai cơ sở dữ liệu và lưu trữ (RDS & S3)](5.5-Database-and-storage/)

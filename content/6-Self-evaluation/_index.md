@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # INTERNSHIP SELF-EVALUATION
 
-Throughout my internship at **First Cloud AI Journey** from **June 8, 2026** to **August 14, 2026**, I had the opportunity to work in a hands-on project environment as a **Backend Developer** on the **Library Management System Website** project.
+Throughout my internship at **First Cloud AI Journey** from **08/06/2026** to **14/08/2026**, I had the opportunity to work in a hands-on project environment as a **Backend Developer** on the **Library Management System Website** project.
 
 ---
 
