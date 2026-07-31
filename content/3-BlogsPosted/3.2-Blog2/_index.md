@@ -1,5 +1,5 @@
 ---
-title: "Blog 1"
+title: "Blog 2"
 date: 2024-01-01
 weight: 2
 chapter: false
@@ -64,6 +64,10 @@ This solution is particularly well suited for systems requiring high availabilit
 - Verified data recovery capability after every backup operation.
 - Reduced manual operations through Infrastructure as Code.
 - Improved data protection while optimizing operational costs.
+
+![](/images/3-Blog/Blog-2/blog-2.png)
+
+- Link post: https://www.facebook.com/groups/awsstudygroupfcj/permalink/2228363921261901/?rdid=EqPbrkmD5gdEgBrb#
 
 ## References
 

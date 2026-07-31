@@ -60,9 +60,9 @@ AWS Lambda is particularly suited for small, event-driven, intermittent workload
 - Learn how to use **CloudWatch** for monitoring and debugging.
 - Identify and prevent **infinite loops** when configuring S3 triggers.
 
+![](/images/3-Blog/Blog-1/blog-1.png)
+
 ## References
 
 - Workshop: https://000078.awsstudygroup.com/
 - Video Tutorial: https://youtu.be/eOBq__h4OJ4?si=ulpAoOrEMKxXV9iq
-
-![](/images/3-Blog/Blog-1/blog-1.png)

@@ -61,7 +61,10 @@ AWS Lambda đặc biệt phù hợp với các tác vụ xử lý theo sự ki�
 - Biết cách sử dụng **CloudWatch** để giám sát và debug Lambda Function.
 - Nhận biết và biết cách phòng tránh lỗi **vòng lặp vô hạn** khi cấu hình S3 Trigger.
 
+![](/images/3-Blog/Blog-1/blog-1.png)
+
 ## Nguồn tham khảo
 
 - Workshop: https://000078.awsstudygroup.com/
 - Video hướng dẫn: https://youtu.be/eOBq__h4OJ4?si=ulpAoOrEMKxXV9iq
+

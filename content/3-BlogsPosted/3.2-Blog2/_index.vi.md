@@ -1,5 +1,5 @@
 ---
-title: "Blog 1"
+title: "Blog 2"
 date: 2024-01-01
 weight: 2
 chapter: false
@@ -67,6 +67,12 @@ Giải pháp này đặc biệt phù hợp với các hệ thống yêu cầu t�
 - Giảm thiểu thao tác thủ công nhờ Infrastructure as Code.
 - Nâng cao khả năng bảo vệ dữ liệu và tối ưu chi phí vận hành.
 
+![](/images/3-Blog/Blog-2/blog-2.png)
+
+- Link bài đăng: https://www.facebook.com/groups/awsstudygroupfcj/permalink/2228363921261901/?rdid=EqPbrkmD5gdEgBrb#
+
 ## Nguồn tham khảo
 
 - Workshop: https://000133.awsstudygroup.com/
+
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2228363921261901/?rdid=EqPbrkmD5gdEgBrb#

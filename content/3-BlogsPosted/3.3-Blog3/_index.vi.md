@@ -61,10 +61,11 @@ AWS KMS đặc biệt phù hợp với các hệ thống yêu cầu mức độ 
 - Hiểu được mối quan hệ giữa **IAM**, **Amazon S3** và **AWS KMS** trong việc kiểm soát quyền truy cập dữ liệu.
 - Biết cách sử dụng **AWS CloudTrail** để theo dõi lịch sử sử dụng khóa mã hóa.
 
+![](/images/3-Blog/Blog-3/blog-3.jpg)
+
 ## Nguồn tham khảo
 
 - Workshop: https://000033.awsstudygroup.com/
 - Video hướng dẫn: https://youtu.be/SCZpW-3b5G0?si=fM551VA4uu49_EWJ
 - AWS Documentation: https://docs.aws.amazon.com/kms/
 
-![](/images/3-Blog/Blog-3/blog-3.png)
