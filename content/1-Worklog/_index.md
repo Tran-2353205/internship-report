@@ -14,18 +14,18 @@ In addition to completing the program's coursework and hands-on labs, the team e
 
 The summary of weekly tasks is as follows:
 
-**Week 1:** [Review Backend fundamentals (RESTful API, HTTP, relational databases), get familiar with First Cloud AI Journey, and study Module 01](1.1-week1/)
+**Week 1:** [Create AWS account, configure IAM, Virtual MFA, AWS Budgets, AWS Support; propose and evaluate project ideas](1.1-week1/)
 
-**Week 2:** [Study Module 02, discuss project topic selection, and build the Project Proposal (proposed Backend architecture & tech stack)](1.2-week2/)
+**Week 2:** [Study Amazon EC2, IAM Roles for EC2, AWS Cloud9; finalize Library Management topic selection and complete Project Proposal](1.2-week2/)
 
-**Week 3:** [Study Module 03, conduct business analysis, and draft the Software Requirement Specification (SRS) document](1.3-week3/)
+**Week 3:** [Study and practice Amazon VPC deployment & security; conduct business survey and draft SRS document](1.3-week3/)
 
-**Week 4:** [Study Module 04, design Use Case Diagram/ERD, and implement initial foundational Backend Models & features](1.4-week4/)
+**Week 4:** [Study Amazon S3 & Amazon RDS; design Use Case Diagram; initialize Django Models, Migrations, and core entities (Book, Category, Publisher)](1.4-week4/)
 
-**Week 5:** [Study Module 05, develop Backend features (reader management, Authentication/Authorization), and build RESTful APIs](1.5-week5/)
+**Week 5:** [Study Amazon Lightsail & Lightsail Containers; develop Reader management, account management, Authentication/Authorization; build and test RESTful APIs](1.5-week5/)
 
-**Week 6:** [Study Module 06, complete remaining Backend features, integrate with Frontend, and perform system testing](1.6-week6/)
+**Week 6:** [Study EC2 Auto Scaling & CloudWatch; finalize book borrowing/returning, late fees, RBAC; integrate Backend with Frontend and perform testing](1.6-week6/)
 
-**Week 7:** [Learn about Route 53, AWS CLI, Secrets Manager; review, fix bugs, and optimize Backend code](1.7-week7/)
+**Week 7:** [Study Route 53, AWS CLI, Secrets Manager; review codebase, fix logic/exception errors, optimize Backend queries, and conduct code review](1.7-week7/)
 
-**Week 8:** [Deploy Backend system to AWS, test on live environment, and finalize internship report](1.8-week8/)
+**Week 8:** [Deploy Backend system to AWS (EC2, RDS, S3); test in production environment and finalize internship report](1.8-week8/)

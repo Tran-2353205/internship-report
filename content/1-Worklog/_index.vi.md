@@ -14,18 +14,18 @@ Bên cạnh việc hoàn thành các bài học và bài thực hành trong chư
 
 Nội dung công việc của từng tuần được tóm tắt như sau:
 
-**Tuần 1:** [Ôn tập nền tảng Backend (RESTful API, HTTP, CSDL quan hệ), làm quen chương trình First Cloud AI Journey và học Module 01](1.1-week1/)
+**Tuần 1:** [Khởi tạo tài khoản AWS, cấu hình IAM, Virtual MFA, AWS Budgets, AWS Support; đề xuất và đánh giá các ý tưởng dự án](1.1-week1/)
 
-**Tuần 2:** [Học Module 02, thảo luận chốt đề tài và xây dựng Proposal (kiến trúc, công nghệ Backend dự kiến)](1.2-week2/)
+**Tuần 2:** [Học Amazon EC2, IAM Role cho EC2, AWS Cloud9; thống nhất chọn đề tài Website Quản lý thư viện và hoàn thiện Proposal](1.2-week2/)
 
-**Tuần 3:** [Học Module 03, phân tích nghiệp vụ và xây dựng tài liệu yêu cầu hệ thống (SRS)](1.3-week3/)
+**Tuần 3:** [Học và thực hành triển khai & bảo mật Amazon VPC; khảo sát nghiệp vụ và xây dựng tài liệu Yêu cầu phần mềm (SRS)](1.3-week3/)
 
-**Tuần 4:** [Học Module 04, thiết kế Use Case Diagram/ERD và triển khai các Model, chức năng Backend nền tảng đầu tiên](1.4-week4/)
+**Tuần 4:** [Học Amazon S3 & Amazon RDS; thiết kế Use Case Diagram; khởi tạo Django Models, Migration và làm các chức năng nền tảng (Book, Category, Publisher)](1.4-week4/)
 
-**Tuần 5:** [Học Module 05, phát triển các chức năng Backend (quản lý độc giả, Authentication/Authorization) và xây dựng RESTful API](1.5-week5/)
+**Tuần 5:** [Học Amazon Lightsail & Lightsail Containers; phát triển Quản lý độc giả, tài khoản, Authentication/Authorization; xây dựng và kiểm thử RESTful API](1.5-week5/)
 
-**Tuần 6:** [Học Module 06, hoàn thiện các chức năng Backend còn lại, tích hợp với Frontend và kiểm thử hệ thống](1.6-week6/)
+**Tuần 6:** [Học EC2 Auto Scaling & Amazon CloudWatch; hoàn thiện chức năng mượn/trả sách, phí phạt, RBAC; tích hợp Backend - Frontend và kiểm thử hệ thống](1.6-week6/)
 
-**Tuần 7:** [Học về Route 53, AWS CLI, Secrets Manager; rà soát, sửa lỗi và tối ưu code Backend](1.7-week7/)
+**Tuần 7:** [Học Route 53, AWS CLI, Secrets Manager; rà soát, sửa lỗi logic/xử lý ngoại lệ, tối ưu truy vấn Backend và review code cùng nhóm](1.7-week7/)
 
-**Tuần 8:** [Triển khai hệ thống Backend lên AWS, kiểm thử trên môi trường thật và hoàn thiện báo cáo thực tập](1.8-week8/)
+**Tuần 8:** [Triển khai Backend lên AWS (EC2, RDS, S3); kiểm thử môi trường thật và hoàn thiện báo cáo thực tập](1.8-week8/)
