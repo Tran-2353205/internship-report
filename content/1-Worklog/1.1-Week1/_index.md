@@ -16,7 +16,7 @@ pre: " <b> 1.1. </b> "
 
 | Day | Tasks | Start Date | Completion Date | Reference Materials |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Confirm participation in the First Cloud AI Journey program <br> - Review learning roadmap, schedule, and program requirements | 08/06/2026 | 08/06/2026 | First Cloud AI Journey |
+| 2 | - Confirm participation in the First Cloud AI Journey program <br> - Review learning roadmap, schedule, and program requirements | 08/06/2026 | 08/06/2026 | |
 | 3 | - Study: Creating Your First AWS Account <br>&emsp;+ AWS account creation <br>&emsp;+ Basic account information setup | 09/06/2026 | 09/06/2026 | https://000001.awsstudygroup.com |
 | 4 | - Study: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM Users, Groups, Roles, Policies <br>&emsp;+ Set up Virtual MFA | 10/06/2026 | 10/06/2026 | https://000002.awsstudygroup.com |
 | 5 | - Study: Managing Costs with AWS Budgets <br>&emsp;+ Configure cost budget alerts <br> - Study: Getting Help with AWS Support <br>&emsp;+ Explore AWS Support plans | 11/06/2026 | 11/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |

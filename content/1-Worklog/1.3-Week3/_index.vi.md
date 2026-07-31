@@ -20,7 +20,7 @@ pre: " <b> 1.3. </b> "
 | 3 | - Thực hành triển khai VPC <br>&emsp;+ Tạo VPC <br>&emsp;+ Tạo Public/Private Subnet <br>&emsp;+ Cấu hình Route Table, Internet Gateway | 23/06/2026 | 23/06/2026 | https://000003.awsstudygroup.com |
 | 4 | - Thực hành bảo mật VPC <br>&emsp;+ Security Group <br>&emsp;+ Network ACL <br>&emsp;+ Kiểm tra kết nối EC2 trong VPC | 24/06/2026 | 24/06/2026 | https://000003.awsstudygroup.com |
 | 5 | - Cùng nhóm phân tích nghiệp vụ hệ thống Quản lý thư viện <br>&emsp;+ Khảo sát quy trình quản lý sách <br>&emsp;+ Quy trình mượn/trả sách <br>&emsp;+ Quy trình quản lý độc giả <br>- Xác định các Actor của hệ thống | 25/06/2026 | 25/06/2026 | Trao đổi nhóm |
-| 6 | - Soạn tài liệu Software Requirement Specification (SRS), tập trung phần yêu cầu liên quan Backend <br>&emsp;+ Functional Requirements <br>&emsp;+ Non-functional Requirements <br>- Review tiến độ khởi tạo dự án và chuẩn bị phát triển chức năng từ tuần tiếp theo | 26/06/2026 | 26/06/2026 | Tài liệu dự án |
+| 6 | - Tham gia thảo luận và đóng góp ý kiến cho tài liệu Software Requirement Specification (SRS) phần Backend <br>&emsp;+ Functional Requirements <br>&emsp;+ Non-functional Requirements <br>- Review tiến độ khởi tạo dự án và chuẩn bị phát triển chức năng từ tuần tiếp theo | 26/06/2026 | 26/06/2026 | Trao đổi nhóm |
 
 ### Kết quả đạt được tuần 3:
 

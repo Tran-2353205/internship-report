@@ -20,7 +20,7 @@ pre: " <b> 1.3. </b> "
 | 3 | - Hands-on practice deploying VPC <br>&emsp;+ Create VPC <br>&emsp;+ Create Public/Private Subnets <br>&emsp;+ Configure Route Tables and Internet Gateways | 23/06/2026 | 23/06/2026 | https://000003.awsstudygroup.com |
 | 4 | - Hands-on practice securing VPC <br>&emsp;+ Security Groups <br>&emsp;+ Network ACLs <br>&emsp;+ Test EC2 connectivity within VPC | 24/06/2026 | 24/06/2026 | https://000003.awsstudygroup.com |
 | 5 | - Collaborate with team on Library Management system business analysis <br>&emsp;+ Survey book management processes <br>&emsp;+ Book borrowing/returning processes <br>&emsp;+ Reader management processes <br>- Identify system Actors | 25/06/2026 | 25/06/2026 | Team discussions |
-| 6 | - Draft Software Requirement Specification (SRS) document, focusing on Backend requirements <br>&emsp;+ Functional Requirements <br>&emsp;+ Non-functional Requirements <br>- Review project initialization progress and prepare for feature development starting next week | 26/06/2026 | 26/06/2026 | Project documentation |
+| 6 | - Participate in discussions and contribute feedback for the Software Requirement Specification (SRS) document (Backend focus) <br>&emsp;+ Functional Requirements <br>&emsp;+ Non-functional Requirements <br>- Review project setup progress and prepare for feature development starting next week | 26/06/2026 | 26/06/2026 | Group discussion |
 
 ### Week 3 Achievements:
 

@@ -16,7 +16,7 @@ pre: " <b> 1.1. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Xác nhận tham gia chương trình First Cloud AI Journey <br> - Xem lại lộ trình học tập, thời gian biểu và yêu cầu chương trình | 08/06/2026 | 08/06/2026 | First Cloud AI Journey |
+| 2 | - Xác nhận tham gia chương trình First Cloud AI Journey <br> - Xem lại lộ trình học tập, thời gian biểu và yêu cầu chương trình | 08/06/2026 | 08/06/2026 | |
 | 3 | - Học: Creating Your First AWS Account <br>&emsp;+ Khởi tạo tài khoản AWS <br>&emsp;+ Cấu hình thông tin tài khoản cơ bản | 09/06/2026 | 09/06/2026 | https://000001.awsstudygroup.com |
 | 4 | - Học: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM User, Group, Role, Policy <br>&emsp;+ Thiết lập Virtual MFA bảo mật | 10/06/2026 | 10/06/2026 | https://000002.awsstudygroup.com |
 | 5 | - Học: Managing Costs with AWS Budgets <br>&emsp;+ Cấu hình cảnh báo ngân sách chi phí <br> - Học: Getting Help with AWS Support <br>&emsp;+ Tìm hiểu các gói dịch vụ AWS Support | 11/06/2026 | 11/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |
