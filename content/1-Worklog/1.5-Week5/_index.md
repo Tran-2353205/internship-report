@@ -1,42 +1,35 @@
 ---
-title: "Week 5 Worklog"
+title: "Worklog Tuần 5"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Week 5 Objectives:
+### Mục tiêu tuần 5:
 
-* Learn about AWS Storage services and complete the hands-on labs in Module 04.
-* Analyze the functionalities of the Library Management System, focusing on the backend APIs each functionality requires.
-* Design the Use Case Diagram and complete the system analysis documentation.
+* Tìm hiểu về các dịch vụ Security, Identity & Compliance của AWS (Module 05).
+* Phân tích dữ liệu và thiết kế Entity Relationship Diagram (ERD) cho hệ thống Quản lý thư viện.
+* Hoàn thiện Database Schema, chuẩn bị cho việc xây dựng Django model.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Study Module 04: Storage Services <br>&emsp;+ Advanced Amazon S3 <br>&emsp;+ Storage Classes <br>&emsp;+ Amazon Glacier <br>&emsp;+ AWS Storage Gateway | 06/07/2026 | 06/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Complete Module 04 hands-on labs <br>&emsp;+ VM Import/Export <br>&emsp;+ Amazon FSx <br>&emsp;+ Manage Storage Quotas <br>&emsp;+ Shadow Copies | 07/07/2026 | 07/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Identify the system functionalities and the backend APIs each one will require <br>&emsp;+ Book Management <br>&emsp;+ Reader Management <br>&emsp;+ Book Borrowing/Returning <br>&emsp;+ Account Management <br> - Categorize functionalities by Actor | 08/07/2026 | 08/07/2026 | Team Discussion |
-| T5 | - Design the Use Case Diagram <br>&emsp;+ Develop the primary Use Cases <br>&emsp;+ Identify Include and Extend relationships <br>&emsp;+ Finalize the diagram using Draw.io | 09/07/2026 | 09/07/2026 | Team Discussion |
-| T6 | - Review the Use Case Diagram with team members <br> - Complete the Use Case Specification document for each functionality, mapping each Use Case to its corresponding backend API | 10/07/2026 | 10/07/2026 | Team Discussion |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Học Module 05: Security, Identity & Compliance <br>&emsp;+ IAM nâng cao <br>&emsp;+ AWS Organizations <br>&emsp;+ AWS KMS <br>&emsp;+ AWS Security Hub | 13/07/2026 | 13/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| T3 | - Thực hành Module 05 <br>&emsp;+ Kích hoạt AWS Security Hub <br>&emsp;+ Tạo IAM Policy <br>&emsp;+ Switch Role <br>&emsp;+ Quản lý Resource Tags | 14/07/2026 | 14/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| T4 | - Phân tích dữ liệu hệ thống với vai trò thành viên phụ trách mô hình dữ liệu backend <br>&emsp;+ Xác định các Entity <br>&emsp;+ Xác định thuộc tính của từng Entity <br>&emsp;+ Xác định mối quan hệ giữa các bảng dữ liệu | 15/07/2026 | 15/07/2026 | Team Discussion |
+| T5 | - Thiết kế Entity Relationship Diagram (ERD) <br>&emsp;+ Xác định Primary Key và Foreign Key <br>&emsp;+ Chuẩn hóa cơ sở dữ liệu <br>&emsp;+ Hoàn thiện ERD bằng Draw.io | 16/07/2026 | 16/07/2026 | Team Discussion |
+| T6 | - Review ERD cùng các thành viên trong nhóm <br> - Tinh chỉnh mô hình dữ liệu theo phản hồi <br> - Hoàn thiện Database Schema cho giai đoạn phát triển backend | 17/07/2026 | 17/07/2026 | Team Discussion |
 
-### Week 5 Achievements:
+### Kết quả đạt được tuần 5:
 
-* Gained an understanding of AWS Storage services and the purpose of each service:
-  * Amazon S3
-  * Amazon Glacier
-  * AWS Storage Gateway
-  * Amazon FSx
+* Nắm được các dịch vụ bảo mật và quản lý danh tính của AWS: IAM nâng cao, AWS Organizations, AWS KMS, AWS Security Hub.
 
-* Completed the hands-on labs in Module 04:
-  * Migrated virtual machines to AWS
-  * Deployed Amazon FSx
-  * Managed storage resources and evaluated file system performance
+* Hoàn thành các bài thực hành Module 05: kích hoạt Security Hub, tạo và quản lý IAM Policy, thực hiện Switch Role.
 
-* Identified all functionalities of the Library Management System, categorized them according to user roles, and mapped out the backend APIs they will require.
+* Hoàn thành phân tích dữ liệu cho hệ thống Quản lý thư viện với vai trò thành viên phụ trách thiết kế cơ sở dữ liệu.
 
-* Completed the Use Case Diagram, illustrating the interactions between users and the system.
+* Thiết kế và hoàn thiện Entity Relationship Diagram (ERD), thể hiện đầy đủ các entity, thuộc tính và mối quan hệ.
 
-* Finalized the Use Case Specification documentation, providing the foundation for the database design (ERD) phase in the following week.
+* Hoàn thành Database Schema, làm cơ sở cho việc xây dựng Django model và phát triển backend trong các tuần tiếp theo.

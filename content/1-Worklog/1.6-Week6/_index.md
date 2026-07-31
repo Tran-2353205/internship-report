@@ -1,45 +1,36 @@
 ---
-title: "Week 6 Worklog"
+title: "Worklog Tuần 6"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Week 6 Objectives:
+### Mục tiêu tuần 6:
 
-* Learn about AWS Security, Identity, and Compliance services, with attention to securing backend applications and credentials.
-* Complete the hands-on labs in Module 05.
-* Design the database for the Library Management System.
-* Complete the Entity Relationship Diagram (ERD) and prepare for the implementation phase.
+* Tìm hiểu về các dịch vụ Database của AWS (Module 06), tập trung vào Amazon RDS.
+* Thiết kế kiến trúc backend (System Architecture) cho hệ thống Quản lý thư viện.
+* Thiết kế RESTful API và chốt công nghệ sử dụng cho backend.
+* Thiết lập môi trường phát triển Django, chuẩn bị bước vào giai đoạn code.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Study Module 05: Security, Identity & Compliance <br>&emsp;+ Advanced IAM <br>&emsp;+ AWS Organizations <br>&emsp;+ AWS KMS <br>&emsp;+ AWS Security Hub | 13/07/2026 | 13/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Complete Module 05 hands-on labs <br>&emsp;+ Enable AWS Security Hub <br>&emsp;+ Create IAM Policies <br>&emsp;+ Switch Roles <br>&emsp;+ Manage Resource Tags | 14/07/2026 | 14/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Analyze the system data as the backend member responsible for the data model <br>&emsp;+ Identify the Entities <br>&emsp;+ Define the attributes of each Entity <br>&emsp;+ Identify relationships between database tables | 15/07/2026 | 15/07/2026 | Team Discussion |
-| T5 | - Design the Entity Relationship Diagram (ERD) <br>&emsp;+ Define Primary Keys and Foreign Keys <br>&emsp;+ Normalize the database <br>&emsp;+ Finalize the ERD using Draw.io | 16/07/2026 | 16/07/2026 | Team Discussion |
-| T6 | - Review the ERD with team members <br> - Refine the data model based on feedback <br> - Finalize the Database Schema for the backend development phase | 17/07/2026 | 17/07/2026 | Team Discussion |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Học Module 06: Database Services <br>&emsp;+ Amazon RDS <br>&emsp;+ Amazon Aurora <br>&emsp;+ Amazon Redshift <br>&emsp;+ Amazon ElastiCache | 20/07/2026 | 20/07/2026 | https://000005.awsstudygroup.com |
+| T3 | - Thực hành Module 06 <br>&emsp;+ Tạo database Amazon RDS PostgreSQL <br>&emsp;+ Kết nối tới database <br>&emsp;+ Sao lưu và khôi phục dữ liệu <br>&emsp;+ Thực hành các câu lệnh SQL cơ bản | 21/07/2026 | 21/07/2026 | https://000005.awsstudygroup.com |
+| T4 | - Thiết kế kiến trúc backend (System Architecture Diagram): EC2 - RDS - S3 - CloudWatch trong mô hình VPC | 22/07/2026 | 22/07/2026 | Team Discussion |
+| T5 | - Thiết kế RESTful API bằng Django REST Framework (DRF) <br>&emsp;+ API xác thực người dùng <br>&emsp;+ API quản lý sách <br>&emsp;+ API quản lý độc giả <br>&emsp;+ API mượn/trả sách | 23/07/2026 | 23/07/2026 | Team Discussion |
+| T6 | - Thảo luận và chốt công nghệ sử dụng <br>&emsp;+ Backend Framework: Django + Django REST Framework <br>&emsp;+ Truy xuất dữ liệu qua Django ORM <br>&emsp;+ Docker <br> - Thiết lập môi trường phát triển Django cục bộ | 24/07/2026 | 24/07/2026 | Team Discussion |
 
-### Week 6 Achievements:
+### Kết quả đạt được tuần 6:
 
-* Gained an understanding of AWS security and identity management services relevant to protecting a backend system:
-  * AWS IAM
-  * AWS Organizations
-  * AWS KMS
-  * AWS Security Hub
-  * AWS CloudTrail
+* Nắm được các dịch vụ Database của AWS: Amazon RDS, Aurora, Redshift, ElastiCache.
 
-* Completed the hands-on labs in Module 05:
-  * Enabled AWS Security Hub
-  * Created and managed IAM Policies
-  * Performed Role Switching (Switch Role)
-  * Managed AWS resources using Resource Tags
+* Hoàn thành thực hành triển khai Amazon RDS PostgreSQL, kết nối, sao lưu và khôi phục dữ liệu.
 
-* Completed the data analysis for the Library Management System as the team member responsible for the database design.
+* Hoàn thành thiết kế kiến trúc backend của hệ thống, xác định các thành phần chính và cách chúng tương tác với nhau.
 
-* Designed and finalized the Entity Relationship Diagram (ERD), providing a complete representation of the database entities, attributes, and relationships.
+* Hoàn thiện tài liệu thiết kế RESTful API cho các chức năng cốt lõi, chuẩn bị triển khai bằng Django REST Framework.
 
-* Completed the Database Schema, providing the foundation for database implementation and backend feature development in the following weeks.
+* Thống nhất công nghệ sử dụng cho backend (Django, DRF, Django ORM, Docker) và thiết lập xong môi trường phát triển Django cục bộ, sẵn sàng bắt đầu code trong tuần tiếp theo.

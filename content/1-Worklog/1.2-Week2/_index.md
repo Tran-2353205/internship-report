@@ -1,49 +1,35 @@
 ---
-title: "Week 2 Worklog"
+title: "Worklog Tuần 2"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives:
+### Mục tiêu tuần 2:
 
-* Get acquainted with the First Cloud AI Journey program and the internship environment.
-* Learn the fundamental concepts of Cloud Computing and AWS, with attention to the service groups most relevant to backend deployment.
-* Complete the basic hands-on labs in Module 01.
-* Join the team and begin discussing the project direction from a backend perspective.
+* Tìm hiểu về Amazon Virtual Private Cloud (VPC) và các thành phần networking cơ bản của AWS.
+* Cùng nhóm thảo luận, thống nhất lựa chọn đề tài dự án thực tập.
+* Xây dựng bản Proposal đầu tiên cho dự án.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Attend the First Cloud AI Journey program introduction session <br> - Get acquainted with the members and the internship process <br> - Learn about the learning roadmap and program requirements | 15/06/2026 | 15/06/2026 | First Cloud AI Journey |
-| T3 | - Study Module 01: Introduction to Cloud Computing and AWS <br>&emsp;+ Cloud Computing <br>&emsp;+ AWS Global Infrastructure <br>&emsp;+ AWS Service Categories (focus on Compute, Database, Networking) <br>&emsp;+ AWS Management Console | 16/06/2026 | 16/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Complete Module 01 hands-on labs: <br>&emsp;+ Create an AWS account <br>&emsp;+ Set up Virtual MFA <br>&emsp;+ Create an IAM User and an IAM Admin Group <br>&emsp;+ Learn how to manage an AWS account | 17/06/2026 | 17/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T5 | - Practice using AWS Budgets and AWS Support <br>&emsp;+ Create a Cost Budget <br>&emsp;+ Learn about Usage Budgets and AWS Support Plans <br> - Hold the first team meeting to discuss the project direction and propose project ideas | 18/06/2026 | 18/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T6 | - Discuss project ideas <br>&emsp;+ Library Management Website <br>&emsp;+ Clinic Management Website <br>&emsp;+ Sales Management Website <br> - Evaluate the feasibility of each topic from a backend/data-model perspective and assign research tasks to prepare the Proposal for the following week | 19/06/2026 | 19/06/2026 | Meeting |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Học: Networking Essentials with Amazon Virtual Private Cloud (VPC) <br>&emsp;+ CIDR Block, Public Subnet, Private Subnet <br>&emsp;+ Route Table, Internet Gateway <br> - Bắt đầu thực hành lab (xem video hướng dẫn và làm nửa bài) | 22/06/2026 | 22/06/2026 | https://000003.awsstudygroup.com |
+| T3 | - Tiếp tục thực hành lab VPC (phần còn lại) <br>&emsp;+ Tạo Public Subnet và Private Subnet <br>&emsp;+ Cấu hình Route Table và Security Group | 23/06/2026 | 23/06/2026 | https://000003.awsstudygroup.com |
+| T4 | - Hoàn thiện lab VPC và dọn dẹp tài nguyên đã tạo (xóa VPC, Subnet, Gateway để tránh phát sinh chi phí) | 24/06/2026 | 24/06/2026 | https://000003.awsstudygroup.com |
+| T5 | - Thảo luận với các thành viên trong nhóm <br> - Thống nhất lựa chọn đề tài: **Website Quản lý thư viện** <br> - Xác định mục tiêu, phạm vi và các chức năng chính của hệ thống | 25/06/2026 | 25/06/2026 | Meeting |
+| T6 | - Xây dựng Proposal cho dự án <br>&emsp;+ Giới thiệu đề tài <br>&emsp;+ Mục tiêu thực hiện <br>&emsp;+ Phạm vi dự án <br>&emsp;+ Kế hoạch triển khai <br> - Chuẩn bị trình bày Proposal trong tuần tiếp theo | 26/06/2026 | 26/06/2026 | Team Discussion |
 
-### Week 2 Achievements:
+### Kết quả đạt được tuần 2:
 
-* Understood the concepts of Cloud Computing, including deployment models and service models:
-  * IaaS
-  * PaaS
-  * SaaS
+* Nắm được kiến thức nền tảng về Amazon VPC: CIDR Block, Public/Private Subnet, Route Table, Internet Gateway, Security Group.
 
-* Gained an understanding of AWS Global Infrastructure and the core AWS service categories most relevant to backend systems, including:
-  * Compute
-  * Storage
-  * Networking
-  * Database
-  * Security & Identity
+* Hoàn thành thực hành triển khai VPC và dọn dẹp tài nguyên sau khi thực hành để tối ưu chi phí.
 
-* Successfully created an AWS account and completed the hands-on labs in Module 01:
-  * Set up Virtual MFA
-  * Create an IAM User and an IAM Group
-  * Become familiar with the AWS Management Console
+* Cùng nhóm thống nhất chọn đề tài **Website Quản lý thư viện** làm dự án thực tập.
 
-* Learned how to use AWS Budgets to monitor costs and explored AWS Support Plans.
+* Xác định được mục tiêu, phạm vi và các chức năng cốt lõi của hệ thống.
 
-* Completed the first team meeting, agreed on the team's working approach, and clarified my role as the backend member responsible for API and database work.
-
-* Contributed to the analysis of several project ideas from a backend feasibility standpoint, as the foundation for selecting a project topic and preparing the Proposal in the following week.
+* Hoàn thành bản Proposal đầu tiên của dự án, sẵn sàng trình bày trong tuần tiếp theo.

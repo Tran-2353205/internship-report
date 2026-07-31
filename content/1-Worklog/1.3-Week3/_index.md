@@ -1,47 +1,35 @@
 ---
-title: "Week 3 Worklog"
+title: "Worklog Tuần 3"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Week 3 Objectives:
+### Mục tiêu tuần 3:
 
-* Learn about Amazon Virtual Private Cloud (Amazon VPC) and AWS networking services, with focus on securing backend and database traffic.
-* Complete the hands-on labs in Module 02.
-* Discuss, evaluate, and finalize the internship project topic.
-* Contribute the backend requirements and constraints to the project Proposal.
+* Tìm hiểu về Amazon EC2 và các dịch vụ liên quan (IAM Roles for EC2, Cloud9, S3 Static Website Hosting).
+* Phân tích nghiệp vụ của hệ thống Quản lý thư viện dưới góc độ backend.
+* Xây dựng tài liệu yêu cầu hệ thống (SRS) làm cơ sở cho giai đoạn thiết kế.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Study Module 02: Networking <br>&emsp;+ Amazon VPC <br>&emsp;+ CIDR Block <br>&emsp;+ Public Subnet and Private Subnet <br>&emsp;+ Route Table and Internet Gateway | 22/06/2026 | 22/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Practice deploying a VPC <br>&emsp;+ Create a VPC <br>&emsp;+ Create Public and Private Subnets (backend/database placed in Private Subnet) <br>&emsp;+ Configure Route Tables and an Internet Gateway <br>&emsp;+ Configure Security Groups and Network ACLs | 23/06/2026 | 23/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Practice connecting EC2 instances within a VPC <br>&emsp;+ EC2 Instance Connect Endpoint <br>&emsp;+ Test connectivity between Subnets <br> - Hold a team meeting to evaluate the proposed project topics | 24/06/2026 | 24/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T5 | - Discuss with team members <br> - Finalize the project topic: **Library Management Website** <br> - Define the project objectives, scope, and core system functionalities | 25/06/2026 | 25/06/2026 | Meeting |
-| T6 | - Develop the project Proposal <br>&emsp;+ Project introduction <br>&emsp;+ Project objectives <br>&emsp;+ Project scope <br>&emsp;+ Implementation plan, including the backend technical approach <br> - Prepare for the Proposal presentation in the following week | 26/06/2026 | 26/06/2026 | Team Discussion |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Học: Compute Essentials with Amazon Elastic Compute Cloud (EC2) <br>&emsp;+ EC2 Instance, AMI, Instance Type <br>&emsp;+ Tìm hiểu lý thuyết trước khi thực hành | 29/06/2026 | 29/06/2026 | https://000004.awsstudygroup.com |
+| T3 | - Thực hành lab: launch EC2 instance, cấu hình Security Group, kết nối SSH | 30/06/2026 | 30/06/2026 | https://000004.awsstudygroup.com |
+| T4 | - Thực hành 3 lab trong ngày: <br>&emsp;+ Instance Profiling with IAM Roles for EC2 <br>&emsp;+ Cloud Development with AWS Cloud9 <br>&emsp;+ Static Website Hosting with Amazon S3 | 01/07/2026 | 01/07/2026 | https://000048.awsstudygroup.com <br> https://000049.awsstudygroup.com <br> https://000057.awsstudygroup.com |
+| T5 | - Phân tích nghiệp vụ hệ thống Quản lý thư viện <br>&emsp;+ Khảo sát quy trình quản lý sách <br>&emsp;+ Quy trình mượn/trả sách <br>&emsp;+ Quy trình quản lý độc giả <br> - Xác định các Actor của hệ thống | 02/07/2026 | 02/07/2026 | Team Discussion |
+| T6 | - Xây dựng Software Requirement Specification (SRS) <br>&emsp;+ Functional Requirements <br>&emsp;+ Non-functional Requirements <br> - Họp nhóm review kết quả phân tích và chuẩn bị thiết kế Use Case Diagram | 03/07/2026 | 03/07/2026 | Team Discussion |
 
-### Week 3 Achievements:
+### Kết quả đạt được tuần 3:
 
-* Acquired fundamental knowledge of Amazon Virtual Private Cloud (VPC) and the components of AWS networking architecture:
-  * VPC
-  * Public Subnet and Private Subnet
-  * Route Table
-  * Internet Gateway
-  * Security Group
-  * Network ACL
+* Nắm được cách launch và cấu hình EC2 instance, gán IAM Role cho EC2 để truy cập các dịch vụ AWS khác một cách an toàn.
 
-* Completed the hands-on labs in Module 02, including:
-  * Deploying a VPC
-  * Configuring networking components with backend/database resources isolated in a Private Subnet
-  * Testing connectivity between resources within the VPC
+* Làm quen với AWS Cloud9 và triển khai thành công static website trên Amazon S3.
 
-* Discussed and evaluated the proposed project topics with team members, taking into account backend implementation complexity.
+* Hoàn thành khảo sát nghiệp vụ của hệ thống Quản lý thư viện và xác định các quy trình chính: quản lý sách, quản lý độc giả, mượn sách, trả sách.
 
-* Agreed to select the **Library Management Website** as the project topic for the internship.
+* Xác định các Actor tham gia hệ thống: Quản trị viên (Administrator), Thủ thư (Librarian), Độc giả (Reader).
 
-* Defined the project objectives, scope, and core system functionalities as the foundation for the analysis and design phase.
-
-* Completed the first version of the project Proposal, including an initial backend technical approach, in preparation for presentation and feedback in the following week.
+* Hoàn thiện tài liệu phân tích yêu cầu (SRS), làm cơ sở cho việc thiết kế Use Case Diagram trong tuần tiếp theo.

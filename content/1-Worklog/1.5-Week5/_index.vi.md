@@ -8,35 +8,29 @@ pre: " <b> 1.5. </b> "
 
 ### Mục tiêu tuần 5:
 
-* Tìm hiểu về các dịch vụ Storage của AWS và hoàn thành các bài thực hành của Module 04.
-* Phân tích các chức năng của hệ thống Quản lý thư viện, tập trung vào các backend API mà từng chức năng cần có.
-* Thiết kế Use Case Diagram và hoàn thiện tài liệu phân tích hệ thống.
+* Tìm hiểu Simplified Computing with Amazon Lightsail và Container Deployment with Lightsail Containers.
+* Phát triển các chức năng Backend: quản lý độc giả, quản lý tài khoản, Authentication/Authorization.
+* Xây dựng RESTful API cho các chức năng chính và phối hợp với Frontend.
+* Kiểm thử các API đã xây dựng.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Học Module 04: Storage Services <br>&emsp;+ Advanced Amazon S3 <br>&emsp;+ Storage Classes <br>&emsp;+ Amazon Glacier <br>&emsp;+ AWS Storage Gateway | 06/07/2026 | 06/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Thực hành Module 04 <br>&emsp;+ VM Import/Export <br>&emsp;+ Amazon FSx <br>&emsp;+ Quản lý Storage Quota <br>&emsp;+ Shadow Copies | 07/07/2026 | 07/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Xác định các chức năng của hệ thống và các backend API mà từng chức năng cần <br>&emsp;+ Quản lý sách <br>&emsp;+ Quản lý độc giả <br>&emsp;+ Mượn/trả sách <br>&emsp;+ Quản lý tài khoản <br> - Phân loại chức năng theo từng Actor | 08/07/2026 | 08/07/2026 | Team Discussion |
-| T5 | - Thiết kế Use Case Diagram <br>&emsp;+ Xây dựng các Use Case chính <br>&emsp;+ Xác định quan hệ Include và Extend <br>&emsp;+ Hoàn thiện sơ đồ bằng Draw.io | 09/07/2026 | 09/07/2026 | Team Discussion |
-| T6 | - Review Use Case Diagram cùng các thành viên nhóm <br> - Hoàn thiện tài liệu Use Case Specification cho từng chức năng, ánh xạ mỗi Use Case tới backend API tương ứng | 10/07/2026 | 10/07/2026 | Team Discussion |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2 | - Học: Simplified Computing with Amazon Lightsail <br>&emsp;+ Khởi tạo Lightsail Instance <br>&emsp;+ Cấu hình Networking và Static IP <br>&emsp;+ So sánh Lightsail và EC2 | 06/07/2026 | 06/07/2026 | https://000045.awsstudygroup.com |
+| 3 | - Học: Container Deployment with Amazon Lightsail Containers <br>&emsp;+ Đóng gói ứng dụng bằng Container <br>&emsp;+ Triển khai Container lên Lightsail <br>&emsp;+ Quản lý Deployment và Scaling cơ bản | 07/07/2026 | 07/07/2026 | https://000046.awsstudygroup.com |
+| 4 | - Phát triển các chức năng Backend <br>&emsp;+ Quản lý độc giả (Reader) <br>&emsp;+ Quản lý tài khoản người dùng <br>&emsp;+ Hoàn thiện Authentication và Authorization | 08/07/2026 | 08/07/2026 | Codebase dự án |
+| 5 | - Xây dựng RESTful API cho các chức năng chính <br>&emsp;+ Book <br>&emsp;+ Reader <br>&emsp;+ Publisher <br>&emsp;+ Category <br>- Trao đổi với Frontend để thống nhất định dạng dữ liệu trao đổi | 09/07/2026 | 09/07/2026 | Codebase dự án |
+| 6 | - Kiểm thử các API đã xây dựng <br>&emsp;+ Kiểm tra CRUD <br>&emsp;+ Kiểm tra xác thực người dùng <br>&emsp;+ Sửa lỗi phát sinh và review Sprint | 10/07/2026 | 10/07/2026 | Codebase dự án |
 
 ### Kết quả đạt được tuần 5:
 
-* Nắm được các dịch vụ Storage của AWS và mục đích sử dụng của từng dịch vụ:
-  * Amazon S3
-  * Amazon Glacier
-  * AWS Storage Gateway
-  * Amazon FSx
+* Nắm được cách khởi tạo và cấu hình Amazon Lightsail Instance, so sánh được với EC2 về mục đích sử dụng.
 
-* Hoàn thành các bài thực hành của Module 04:
-  * Di chuyển máy ảo lên AWS
-  * Triển khai Amazon FSx
-  * Quản lý tài nguyên lưu trữ và đánh giá hiệu năng hệ thống file
+* Hiểu được cách đóng gói và triển khai ứng dụng dạng Container lên Amazon Lightsail Containers.
 
-* Xác định đầy đủ các chức năng của hệ thống Quản lý thư viện, phân loại theo vai trò người dùng, và ánh xạ ra các backend API tương ứng.
+* Phát triển thành công các chức năng Backend: quản lý độc giả, quản lý tài khoản người dùng, hoàn thiện Authentication và Authorization.
 
-* Hoàn thành Use Case Diagram, thể hiện tương tác giữa người dùng và hệ thống.
+* Xây dựng hoàn chỉnh RESTful API cho các chức năng chính (Book, Reader, Publisher, Category) và thống nhất định dạng dữ liệu trao đổi với Frontend.
 
-* Hoàn thiện tài liệu Use Case Specification, làm cơ sở cho giai đoạn thiết kế cơ sở dữ liệu (ERD) trong tuần tiếp theo.
+* Kiểm thử các API đã xây dựng (CRUD, xác thực người dùng), sửa lỗi phát sinh

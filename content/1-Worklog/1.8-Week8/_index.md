@@ -1,41 +1,33 @@
 ---
-title: "Week 8 Worklog"
+title: "Worklog Tuần 8"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Week 8 Objectives:
+### Mục tiêu tuần 8:
 
-* Begin the backend implementation of the Library Management Website project using Django.
-* Set up the Django project structure and connect it to the database.
-* Implement the core Django apps and expose them as RESTful APIs with Django REST Framework.
-* Apply the AWS knowledge acquired during the training to the development process.
+* Deploy ứng dụng backend lên hạ tầng AWS thực tế (EC2, RDS, S3, CloudWatch).
+* Kiểm thử và sửa lỗi phát sinh trong quá trình deploy.
+* Hoàn thiện tài liệu kỹ thuật và báo cáo thực tập.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Initialize the Django project structure in the GitHub repository <br>&emsp;+ Create the Django project and the initial apps (books, readers, accounts) <br>&emsp;+ Set up development branches <br>&emsp;+ Agree on the Django coding conventions with the team | 27/07/2026 | 27/07/2026 | Team Discussion |
-| T3 | - Set up the Django development environment <br>&emsp;+ Configure Docker and Docker Compose <br>&emsp;+ Define the Django models and run makemigrations/migrate <br>&emsp;+ Connect Django to the database via Django ORM | 28/07/2026 | 28/07/2026 | Team Discussion |
-| T4 | - Develop the Book Management module <br>&emsp;+ Book model, serializer, and DRF viewset (CRUD) <br>&emsp;+ Category model, serializer, and DRF viewset (CRUD) <br>&emsp;+ Test the core APIs with Postman | 29/07/2026 | 29/07/2026 | Team Discussion |
-| T5 | - Develop the Reader Management module <br>&emsp;+ Reader model, serializer, and DRF viewset (CRUD) <br>&emsp;+ User Account Management API (Django's authentication system) <br>&emsp;+ Perform integration testing between Django and the database | 30/07/2026 | 30/07/2026 | Team Discussion |
-| T6 | - Attend the Sprint 1 review meeting <br> - Review the Django implementation progress <br> - Fix identified issues and update the backend development plan for the following week | 31/07/2026 | 31/07/2026 | Team Discussion |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Triển khai Amazon EC2, cấu hình Docker và chạy ứng dụng Django trên EC2 <br> - Tạo Amazon RDS PostgreSQL, kết nối Django tới RDS | 03/08/2026 | 03/08/2026 | Team Discussion |
+| T3 | - Cấu hình Amazon S3 để lưu trữ ảnh bìa sách và tệp đính kèm <br> - Cấu hình Amazon CloudWatch để giám sát EC2 <br> - Kiểm tra kết nối toàn hệ thống trên AWS | 04/08/2026 | 04/08/2026 | Team Discussion |
+| T4 | - Kiểm thử end-to-end trên môi trường AWS thực tế <br> - Sửa lỗi phát sinh (kết nối, cấu hình Security Group, phân quyền IAM) | 05/08/2026 | 05/08/2026 | Team Discussion |
+| T5 | - Tổng hợp tài liệu kỹ thuật backend (tài liệu API, kiến trúc hệ thống, ERD) <br> - Viết nội dung báo cáo thực tập | 06/08/2026 | 06/08/2026 | Team Discussion |
+| T6 | - Rà soát, chỉnh sửa và hoàn thiện báo cáo thực tập <br> - Tổng kết quá trình thực tập cùng nhóm | 07/08/2026 | 07/08/2026 | Meeting |
 
-### Week 8 Achievements:
+### Kết quả đạt được tuần 8:
 
-* Completed the Django project initialization and configured the local development environment.
+* Deploy thành công hệ thống backend lên AWS: Amazon EC2 (Django + Docker), Amazon RDS PostgreSQL, Amazon S3, Amazon CloudWatch, trong mô hình VPC gồm 1 Public Subnet và 2 Private Subnet.
 
-* Set up the Django project structure (apps for books, readers, and accounts) in the GitHub repository and agreed on a common development workflow with the team.
+* Khắc phục các lỗi phát sinh trong quá trình triển khai thực tế trên môi trường AWS.
 
-* Successfully configured Docker and Docker Compose and established a stable connection between Django and the database via the Django ORM.
+* Hoàn thiện đầy đủ tài liệu kỹ thuật của dự án.
 
-* Developed the core backend functionalities of the system using Django REST Framework:
-  * Book Management API
-  * Category Management API
-  * Reader Management API
-
-* Successfully tested the core APIs with Postman and verified that data was stored and retrieved correctly through the Django ORM.
-
-* Completed the first backend development sprint and identified the tasks to be carried out during the next phase of refinement.
+* Hoàn thiện báo cáo thực tập, tổng kết những kiến thức và kỹ năng đạt được trong quá trình tham gia chương trình First Cloud AI Journey.

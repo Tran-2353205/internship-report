@@ -1,54 +1,35 @@
 ---
-title: "Week 4 Worklog"
+title: "Worklog Tuần 4"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Week 4 Objectives:
+### Mục tiêu tuần 4:
 
-* Learn about AWS Compute services and complete the hands-on labs in Module 03.
-* Analyze the business processes of the Library Management System from a backend data-flow perspective.
-* Identify the system's functional and non-functional requirements, with attention to backend performance and security.
-* Prepare for the Use Case Diagram design phase.
+* Tìm hiểu về các dịch vụ Storage nâng cao của AWS (Module 04).
+* Xác định các chức năng của hệ thống và các backend API tương ứng cho từng chức năng.
+* Thiết kế và hoàn thiện Use Case Diagram của hệ thống Quản lý thư viện.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Study Module 03: Compute Services <br>&emsp;+ Amazon EC2 <br>&emsp;+ AMI <br>&emsp;+ Amazon EBS <br>&emsp;+ EC2 Auto Scaling | 29/06/2026 | 29/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Complete Module 03 hands-on labs <br>&emsp;+ AWS Backup <br>&emsp;+ Create a Backup Plan <br>&emsp;+ Perform a Test Restore <br>&emsp;+ Learn about Amazon Storage Gateway | 30/06/2026 | 30/06/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Practice deploying a Static Website on Amazon S3 <br>&emsp;+ Website Hosting <br>&emsp;+ Versioning <br>&emsp;+ CloudFront CDN <br>&emsp;+ Multi-Region Replication | 01/07/2026 | 01/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T5 | - Analyze the business processes of the Library Management System from a backend perspective <br>&emsp;+ Review the book management process <br>&emsp;+ Review the book borrowing and returning process <br>&emsp;+ Review the reader management process <br> - Identify the system Actors and the data each process needs to persist | 02/07/2026 | 02/07/2026 | Team Discussion |
-| T6 | - Contribute to the Software Requirements Specification (SRS) <br>&emsp;+ Functional Requirements <br>&emsp;+ Non-functional Requirements (backend performance, data integrity, security) <br> - Hold a team review meeting to evaluate the analysis results and prepare for the Use Case Diagram design | 03/07/2026 | 03/07/2026 | Team Discussion |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Học Module 04: Storage Services <br>&emsp;+ Amazon S3 nâng cao <br>&emsp;+ Storage Class <br>&emsp;+ Amazon Glacier <br>&emsp;+ AWS Storage Gateway | 06/07/2026 | 06/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| T3 | - Thực hành Module 04 <br>&emsp;+ VM Import/Export <br>&emsp;+ Amazon FSx <br>&emsp;+ Quản lý Storage Quotas <br>&emsp;+ Shadow Copies | 07/07/2026 | 07/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| T4 | - Xác định các chức năng của hệ thống và backend API mà từng chức năng cần có <br>&emsp;+ Quản lý sách <br>&emsp;+ Quản lý độc giả <br>&emsp;+ Mượn/trả sách <br>&emsp;+ Quản lý tài khoản <br> - Phân loại chức năng theo từng Actor | 08/07/2026 | 08/07/2026 | Team Discussion |
+| T5 | - Thiết kế Use Case Diagram <br>&emsp;+ Xây dựng các Use Case chính <br>&emsp;+ Xác định quan hệ Include và Extend <br>&emsp;+ Hoàn thiện sơ đồ bằng Draw.io | 09/07/2026 | 09/07/2026 | Team Discussion |
+| T6 | - Review Use Case Diagram với các thành viên <br> - Hoàn thiện tài liệu Use Case Specification cho từng chức năng | 10/07/2026 | 10/07/2026 | Team Discussion |
 
-### Week 4 Achievements:
+### Kết quả đạt được tuần 4:
 
-* Gained an understanding of AWS Compute services and their roles in backend application deployment:
-  * Amazon EC2
-  * Amazon EBS
-  * Amazon EC2 Auto Scaling
-  * AWS Backup
-  * Amazon S3 Static Website
-  * Amazon CloudFront
+* Nắm được các dịch vụ Storage nâng cao của AWS: Storage Class, Amazon Glacier, AWS Storage Gateway.
 
-* Completed the hands-on labs in Module 03:
-  * Created and managed Backup Plans
-  * Performed data recovery through Test Restore
-  * Deployed a static website on Amazon S3
-  * Distributed content using Amazon CloudFront
+* Hoàn thành các bài thực hành Module 04: VM Import/Export, Amazon FSx, quản lý Storage Quotas.
 
-* Completed the business process analysis of the Library Management System and identified the main workflows and the data each workflow needs to persist:
-  * Book Management
-  * Reader Management
-  * Book Borrowing
-  * Book Returning
-  * User Account Management
+* Xác định đầy đủ các chức năng của hệ thống Quản lý thư viện và ánh xạ ra các backend API tương ứng, phân loại theo từng Actor.
 
-* Identified the system Actors:
-  * Administrator
-  * Librarian
-  * Reader
+* Hoàn thành Use Case Diagram, thể hiện tương tác giữa người dùng và hệ thống.
 
-* Contributed to the Software Requirements Specification (SRS), with particular focus on backend-related non-functional requirements, providing the foundation for designing the Use Case Diagram in the following week.
+* Hoàn thiện tài liệu Use Case Specification, làm cơ sở cho việc thiết kế cơ sở dữ liệu (ERD) trong tuần tiếp theo.

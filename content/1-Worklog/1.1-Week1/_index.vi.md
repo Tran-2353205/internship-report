@@ -8,29 +8,28 @@ pre: " <b> 1.1. </b> "
 
 ### Mục tiêu tuần 1:
 
-* Chuẩn bị môi trường phát triển cá nhân trước khi chương trình First Cloud AI Journey chính thức bắt đầu.
-* Ôn tập kiến thức nền tảng backend: RESTful API, HTTP và cơ sở dữ liệu quan hệ.
-* Tìm hiểu các khái niệm cơ bản về Điện toán đám mây và AWS để chuẩn bị cho Module 01.
+* Ôn tập kiến thức nền tảng Backend: RESTful API, HTTP và cơ sở dữ liệu quan hệ.
+* Tìm hiểu các khái niệm cơ bản về Điện toán đám mây và AWS, hoàn thành Module 01 để chuẩn bị cho chương trình chính thức.
 * Nắm được lịch trình, yêu cầu và kết quả mong đợi của chương trình thực tập.
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Xác nhận tham gia chương trình First Cloud AI Journey <br> - Xem lại lộ trình học tập, thời gian biểu và yêu cầu chương trình | 08/06/2026 | 08/06/2026 | First Cloud AI Journey |
-| T3 | - Thiết lập môi trường phát triển cá nhân <br>&emsp;+ Cài đặt Git và cấu hình tài khoản GitHub <br>&emsp;+ Cài đặt Python, tạo virtual environment và cài đặt Django <br>&emsp;+ Cài đặt IDE (VS Code/PyCharm) và Postman để kiểm thử API | 09/06/2026 | 09/06/2026 | Tự học |
-| T4 | - Ôn tập kiến thức nền tảng về RESTful API <br>&emsp;+ Các phương thức HTTP (GET, POST, PUT, DELETE) <br>&emsp;+ HTTP Status Code <br>&emsp;+ Cấu trúc Request/Response và định dạng JSON | 10/06/2026 | 10/06/2026 | Tự học |
-| T5 | - Ôn tập kiến thức nền tảng về cơ sở dữ liệu quan hệ <br>&emsp;+ Table, Primary Key, Foreign Key <br>&emsp;+ Chuẩn hóa dữ liệu cơ bản <br>&emsp;+ Câu lệnh SQL cơ bản (SELECT, INSERT, UPDATE, DELETE) | 11/06/2026 | 11/06/2026 | Tự học |
-| T6 | - Đọc tổng quan về các dịch vụ cốt lõi của AWS (EC2, S3, RDS) <br> - Ghi chú lại các câu hỏi liên quan đến backend để trao đổi khi chương trình khai giảng | 12/06/2026 | 12/06/2026 | https://aws.amazon.com/ |
+| 2 | - Xác nhận tham gia chương trình First Cloud AI Journey <br> - Xem lại lộ trình học tập, thời gian biểu và yêu cầu chương trình | 08/06/2026 | 08/06/2026 | First Cloud AI Journey |
+| 3 | - Học: Creating Your First AWS Account <br> - Học: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM User, Group, Role, Policy <br>&emsp;+ Thiết lập Virtual MFA | 09/06/2026 | 09/06/2026 | https://000001.awsstudygroup.com <br> https://000002.awsstudygroup.com |
+| 4 | - Học: Managing Costs with AWS Budgets <br> - Học: Getting Help with AWS Support | 10/06/2026 | 10/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |
+| 5 | - Học Module 02: Networking <br>&emsp;+ Amazon VPC <br>&emsp;+ CIDR Block <br>&emsp;+ Public Subnet và Private Subnet <br>&emsp;+ Route Table và Internet Gateway | 11/06/2026 | 11/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Thảo luận các ý tưởng dự án <br>&emsp;+ Website Quản lý thư viện <br>&emsp;+ Website Quản lý phòng khám <br>&emsp;+ Website Quản lý bán hàng <br> - Đánh giá tính khả thi của từng đề tài và phân công tìm hiểu để chuẩn bị Proposal trong tuần tiếp theo | 12/06/2026 | 12/06/2026 | Trao đổi nhóm |
 
 ### Kết quả đạt được tuần 1:
 
-* Hoàn thành thiết lập môi trường phát triển cá nhân, bao gồm Git, Python virtual environment, Django, IDE và Postman.
+* Tạo thành công tài khoản AWS và hoàn thành các bài thực hành: thiết lập Virtual MFA, tạo IAM User và IAM Group.
 
-* Ôn lại kiến thức về nguyên tắc thiết kế RESTful API và các khái niệm nền tảng của HTTP.
+* Biết cách sử dụng AWS Budgets để theo dõi chi phí và nắm được các gói hỗ trợ của AWS Support.
 
-* Ôn lại kiến thức về cơ sở dữ liệu quan hệ và các câu lệnh SQL cơ bản.
+* Nắm được kiến thức cơ bản về Amazon Virtual Private Cloud (VPC): CIDR Block, Public/Private Subnet, Route Table, Internet Gateway.
 
-* Có cái nhìn tổng quan về các dịch vụ cốt lõi của AWS để chuẩn bị cho Module 01.
+* Đề xuất và đánh giá các ý tưởng dự án (Quản lý thư viện, Quản lý phòng khám, Quản lý bán hàng), phân công tìm hiểu để chuẩn bị Proposal cho tuần tiếp theo.
 
 * Sẵn sàng chính thức bắt đầu chương trình First Cloud AI Journey với sự hiểu biết rõ ràng về lịch trình và yêu cầu.

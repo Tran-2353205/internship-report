@@ -25,4 +25,4 @@ Trong đồ án này, hệ thống được xây dựng dựa trên các dịch 
 
 Toàn bộ quá trình triển khai được thực hiện theo thứ tự: **VPC → IAM → Security Groups → RDS → S3 → EC2 → Deploy → CloudWatch**, đảm bảo hạ tầng mạng và bảo mật được thiết lập đầy đủ trước khi triển khai ứng dụng và cấu hình giám sát.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.jpg)

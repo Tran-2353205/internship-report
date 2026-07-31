@@ -101,9 +101,6 @@ Security Group của EC2 (`library-ec2-sg`) đang được Security Group của 
 
 20. Vào **VPC Console** → **Your VPCs**, chọn `library-vpc`.
 21. Nhấn **Actions** → **Delete VPC**. AWS sẽ hiển thị danh sách toàn bộ tài nguyên con sẽ bị xóa kèm theo, ví dụ: `library-igw`, `public-rt`, `private-rt`, `public-subnet`, `private-subnet-1`...
-
-![delete-vpc-confirm](/images/5-Workshop/5.8-Cleanup/delete-vpc-confirm.png)
-
 22. Gõ `delete` vào ô xác nhận, nhấn **Delete**.
 
 {{% notice note %}}

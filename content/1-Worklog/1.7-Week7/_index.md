@@ -1,44 +1,38 @@
 ---
-title: "Week 7 Worklog"
+title: "Worklog Tuần 7"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Week 7 Objectives:
+### Mục tiêu tuần 7:
 
-* Learn about AWS database services and complete the hands-on labs in Module 06.
-* Design the backend architecture of the Library Management System.
-* Design the RESTful APIs and finalize the backend technology stack.
-* Set up the development environment and prepare to begin the implementation phase.
+* Bắt đầu triển khai phần backend cho dự án Website Quản lý thư viện bằng Django.
+* Khởi tạo cấu trúc dự án Django, kết nối cơ sở dữ liệu và đóng gói bằng Docker.
+* Xây dựng các module cốt lõi và expose thành RESTful API bằng Django REST Framework.
+* Tìm hiểu thêm về Amazon CloudWatch để chuẩn bị cho giai đoạn giám sát hệ thống sau khi deploy.
 
-### Tasks to be carried out this week:
+### Các công việc cần triển khai trong tuần này:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| T2 | - Study Module 06: Database Services <br>&emsp;+ Amazon RDS <br>&emsp;+ Amazon Aurora <br>&emsp;+ Amazon Redshift <br>&emsp;+ Amazon ElastiCache | 20/07/2026 | 20/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T3 | - Complete Module 06 hands-on labs <br>&emsp;+ Create an Amazon RDS database <br>&emsp;+ Connect to the database <br>&emsp;+ Back up and restore data <br>&emsp;+ Practice basic SQL queries | 21/07/2026 | 21/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T4 | - Practice Database Migration <br>&emsp;+ AWS Database Migration Service (AWS DMS) <br>&emsp;+ AWS Schema Conversion Tool (AWS SCT) <br> - Design the backend architecture (System Architecture Diagram) | 22/07/2026 | 22/07/2026 | https://cloudjourney.awsstudygroup.com/ |
-| T5 | - Design RESTful APIs using Django REST Framework (DRF) <br>&emsp;+ User Authentication API <br>&emsp;+ Book Management API <br>&emsp;+ Reader Management API <br>&emsp;+ Book Borrowing and Returning API | 23/07/2026 | 23/07/2026 | Team Discussion |
-| T6 | - Discuss and finalize the technology stack <br>&emsp;+ Backend Framework: Django + Django REST Framework <br>&emsp;+ Database access via Django ORM <br>&emsp;+ Docker <br>&emsp;+ AWS Services <br> - Set up the Django development environment and prepare for the first development sprint | 24/07/2026 | 24/07/2026 | Team Discussion |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| T2 | - Khởi tạo cấu trúc dự án Django trên GitHub <br>&emsp;+ Tạo project Django và các app ban đầu (books, readers, accounts) <br>&emsp;+ Thiết lập các nhánh phát triển <br>&emsp;+ Thống nhất coding convention cùng nhóm | 27/07/2026 | 27/07/2026 | Team Discussion |
+| T3 | - Cấu hình Docker và Docker Compose cho môi trường phát triển <br>&emsp;+ Định nghĩa Django model theo Database Schema đã thiết kế <br>&emsp;+ Kết nối Django với cơ sở dữ liệu PostgreSQL (dùng để test cục bộ) qua Django ORM | 28/07/2026 | 28/07/2026 | Team Discussion |
+| T4 | - Xây dựng module Quản lý sách <br>&emsp;+ Model, Serializer và DRF ViewSet cho sách (CRUD) <br>&emsp;+ Model, Serializer và DRF ViewSet cho thể loại (CRUD) <br>&emsp;+ Kiểm thử các API bằng Postman | 29/07/2026 | 29/07/2026 | Team Discussion |
+| T5 | - Xây dựng module Quản lý độc giả <br>&emsp;+ Model, Serializer và DRF ViewSet cho độc giả (CRUD) <br>&emsp;+ API quản lý tài khoản người dùng (dùng hệ thống authentication của Django) <br>&emsp;+ Kiểm thử tích hợp giữa Django và database | 30/07/2026 | 30/07/2026 | Team Discussion |
+| T6 | - Học: Monitoring with Amazon CloudWatch (metrics, log, alarm) <br> - Tham gia buổi review Sprint 1, khắc phục các vấn đề phát sinh và cập nhật kế hoạch cho tuần deploy | 31/07/2026 | 31/07/2026 | https://000008.awsstudygroup.com |
 
-### Week 7 Achievements:
+### Kết quả đạt được tuần 7:
 
-* Gained an understanding of AWS database services and their practical applications:
-  * Amazon RDS
-  * Amazon Aurora
-  * Amazon Redshift
-  * Amazon ElastiCache
+* Hoàn thành khởi tạo dự án Django và thiết lập cấu trúc dự án (app books, readers, accounts) trên GitHub.
 
-* Completed the hands-on labs in Module 06:
-  * Deployed a database on Amazon RDS
-  * Performed database backup and restoration
-  * Practiced SQL queries
-  * Learned the database migration process using AWS DMS and AWS SCT
+* Cấu hình thành công Docker và Docker Compose, thiết lập kết nối ổn định giữa Django và database qua Django ORM.
 
-* Completed the backend architecture design of the Library Management System, identifying the major components and how they interact with one another.
+* Xây dựng thành công các API cốt lõi bằng Django REST Framework: Quản lý sách, Quản lý thể loại, Quản lý độc giả, Quản lý tài khoản người dùng.
 
-* Finalized the RESTful API design documentation for the core system functionalities, to be implemented with Django REST Framework.
+* Kiểm thử thành công các API bằng Postman, xác nhận dữ liệu được lưu trữ và truy xuất chính xác.
 
-* Agreed on the project's backend technology stack (Django, Django REST Framework, Django ORM, Docker) and set up the local Django development environment, ready to begin implementation in the following week.
+* Nắm được cách sử dụng Amazon CloudWatch để giám sát tài nguyên, chuẩn bị cho việc theo dõi hệ thống sau khi deploy.
+
+* Hoàn thành sprint phát triển backend đầu tiên, sẵn sàng cho giai đoạn deploy lên AWS trong tuần cuối.

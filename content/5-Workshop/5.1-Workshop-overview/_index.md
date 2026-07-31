@@ -25,4 +25,4 @@ In this project, the system is built on the following core AWS services:
 
 The entire deployment process follows this order: **VPC → IAM → Security Groups → RDS → S3 → EC2 → Deploy → CloudWatch**, ensuring the network and security infrastructure is fully established before deploying the application and configuring monitoring.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.jpg)
