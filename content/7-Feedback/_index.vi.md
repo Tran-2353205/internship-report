@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
->Tại phần này, mình xin chia sẻ một số cảm nhận sau **2 tháng** tham gia chương trình thực tập **First Cloud AI Journey**. Những ý kiến dưới đây được đưa ra với mong muốn góp phần giúp chương trình ngày càng hoàn thiện và mang lại nhiều giá trị hơn cho các khóa học viên sau.
+>Dưới đây là những đánh giá và cảm nhận của em sau quá trình tham gia chương trình **First Cloud AI Journey**. Những ý kiến này được đưa ra với mong muốn góp phần giúp chương trình ngày càng hoàn thiện và mang lại nhiều giá trị hơn cho các học viên trong tương lai.
 
 ## Đánh giá chung
 

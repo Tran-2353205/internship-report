@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> In this section, I would like to share my reflections after participating in the **First Cloud AI Journey** program. The feedback below is provided with the hope of helping the program continue to improve and deliver even greater value to future participants.
+> Below are my personal evaluations and reflections after participating in the **First Cloud AI Journey program**. These comments are intended to provide constructive feedback and help improve the program for future participants.
 
 ## Overall Evaluation
 
