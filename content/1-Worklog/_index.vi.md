@@ -14,20 +14,18 @@ Bên cạnh việc hoàn thành các bài học và bài thực hành trong chư
 
 Nội dung công việc của từng tuần được tóm tắt như sau:
 
-**Tuần 1:** [Làm quen với chương trình First Cloud AI Journey, học Module 01 và đề xuất ý tưởng dự án](1.1-week1/)
+**Tuần 1:** [Ôn tập nền tảng Backend (RESTful API, HTTP, CSDL quan hệ), làm quen chương trình First Cloud AI Journey và học Module 01](1.1-week1/)
 
-**Tuần 2:** [Học Module 02, thảo luận và chốt đề tài, xây dựng Proposal](1.2-week2/)
+**Tuần 2:** [Học Module 02, thảo luận chốt đề tài và xây dựng Proposal (kiến trúc, công nghệ Backend dự kiến)](1.2-week2/)
 
 **Tuần 3:** [Học Module 03, phân tích nghiệp vụ và xây dựng tài liệu yêu cầu hệ thống (SRS)](1.3-week3/)
 
-**Tuần 4:** [Học Module 04 và thiết kế Use Case Diagram](1.4-week4/)
+**Tuần 4:** [Học Module 04, thiết kế Use Case Diagram/ERD và triển khai các Model, chức năng Backend nền tảng đầu tiên](1.4-week4/)
 
-**Tuần 5:** [Học Module 05 và thiết kế cơ sở dữ liệu (ERD)](1.5-week5/)
+**Tuần 5:** [Học Module 05, phát triển các chức năng Backend (quản lý độc giả, Authentication/Authorization) và xây dựng RESTful API](1.5-week5/)
 
-**Tuần 6:** [Học Module 06, thiết kế kiến trúc hệ thống và tài liệu API](1.6-week6/)
+**Tuần 6:** [Học Module 06, hoàn thiện các chức năng Backend còn lại, tích hợp với Frontend và kiểm thử hệ thống](1.6-week6/)
 
-**Tuần 7:** [Khởi tạo dự án, xây dựng môi trường phát triển và triển khai các chức năng nền tảng](1.7-week7/)
+**Tuần 7:** [Học về Route 53, AWS CLI, Secrets Manager; rà soát, sửa lỗi và tối ưu code Backend](1.7-week7/)
 
-**Tuần 8:** [Hoàn thiện chức năng, tích hợp hệ thống và triển khai thử nghiệm trên AWS](1.8-week8/)
-
-**Tuần 9:** [Kiểm thử, tối ưu hệ thống, hoàn thiện tài liệu, demo và tổng kết thực tập](1.9-week9/)
+**Tuần 8:** [Triển khai hệ thống Backend lên AWS, kiểm thử trên môi trường thật và hoàn thiện báo cáo thực tập](1.8-week8/)

@@ -17,9 +17,9 @@ pre: " <b> 1.1. </b> "
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2 | - Xác nhận tham gia chương trình First Cloud AI Journey <br> - Xem lại lộ trình học tập, thời gian biểu và yêu cầu chương trình | 08/06/2026 | 08/06/2026 | First Cloud AI Journey |
-| 3 | - Học: Creating Your First AWS Account <br> - Học: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM User, Group, Role, Policy <br>&emsp;+ Thiết lập Virtual MFA | 09/06/2026 | 09/06/2026 | https://000001.awsstudygroup.com <br> https://000002.awsstudygroup.com |
-| 4 | - Học: Managing Costs with AWS Budgets <br> - Học: Getting Help with AWS Support | 10/06/2026 | 10/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |
-| 5 | - Học Module 02: Networking <br>&emsp;+ Amazon VPC <br>&emsp;+ CIDR Block <br>&emsp;+ Public Subnet và Private Subnet <br>&emsp;+ Route Table và Internet Gateway | 11/06/2026 | 11/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 3 | - Học Module 01: Tổng quan về Điện toán đám mây và AWS <br>&emsp;+ Cloud Computing <br>&emsp;+ AWS Global Infrastructure <br>&emsp;+ Các nhóm dịch vụ AWS <br>&emsp;+ AWS Management Console | 16/06/2026 | 16/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 4 | - Học: Creating Your First AWS Account <br> - Học: Access Management with AWS Identity and Access Management (IAM) <br>&emsp;+ IAM User, Group, Role, Policy <br>&emsp;+ Thiết lập Virtual MFA | 09/06/2026 | 09/06/2026 | https://000001.awsstudygroup.com <br> https://000002.awsstudygroup.com |
+| 5 | - Học: Managing Costs with AWS Budgets <br> - Học: Getting Help with AWS Support | 10/06/2026 | 10/06/2026 | https://000007.awsstudygroup.com <br> https://000009.awsstudygroup.com |
 | 6 | - Thảo luận các ý tưởng dự án <br>&emsp;+ Website Quản lý thư viện <br>&emsp;+ Website Quản lý phòng khám <br>&emsp;+ Website Quản lý bán hàng <br> - Đánh giá tính khả thi của từng đề tài và phân công tìm hiểu để chuẩn bị Proposal trong tuần tiếp theo | 12/06/2026 | 12/06/2026 | Trao đổi nhóm |
 
 ### Kết quả đạt được tuần 1:
